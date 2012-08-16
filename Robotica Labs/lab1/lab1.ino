@@ -4,13 +4,12 @@ int LED = 13;
 void setup(){
 	// declara el pin del LED osea el 13 como pin de salida
 	pinMode(LED,OUTPUT);
-
-
 }
 
 // main loop
 void loop(){
 	digitalWrite(LED,HIGH);
-	delay(6000);
+	delay(1000);
 	digitalWrite(LED,LOW);
+    delay(1000);
 }
