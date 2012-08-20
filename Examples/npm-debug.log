@@ -1,0 +1,2998 @@
+info it worked if it ends with ok
+verbose cli [ 'nodejs', '/usr/bin/npm', 'install', '-g', 'firmata' ]
+info using npm@1.1.19
+info using node@v0.6.18
+verbose config file /root/.npmrc
+verbose config file /usr/etc/npmrc
+verbose config file /usr/lib/nodejs/npm/npmrc
+verbose cache add [ 'firmata', null ]
+silly cache add: name, spec, args [ undefined, 'firmata', [ 'firmata', null ] ]
+verbose parsed url { pathname: 'firmata', path: 'firmata', href: 'firmata' }
+verbose addNamed [ 'firmata', '' ]
+verbose addNamed [ null, '' ]
+silly name, range, hasData [ 'firmata', '', false ]
+verbose raw, before any munging firmata
+verbose url resolving [ 'https://registry.npmjs.org/', './firmata' ]
+verbose url resolved https://registry.npmjs.org/firmata
+verbose etag "CY1BM86J324UOOPJPJGPI1OI5"
+http GET https://registry.npmjs.org/firmata
+http 304 https://registry.npmjs.org/firmata
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"CY1BM86J324UOOPJPJGPI1OI5"',
+silly get cb     date: 'Fri, 17 Aug 2012 05:31:56 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag firmata from cache
+silly name, range, hasData 2 [ 'firmata', '', true ]
+silly versions [ 'firmata',
+silly versions   [ '0.1.3', '0.2.0', '0.2.1', '0.2.2', '0.2.3', '0.2.4' ] ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl1.0.0i-fips-v83.6.6.25-linux-ia32-3.4.7-1.fc16.i686',
+verbose bin dist   { shasum: '0c844aea3aa86f538cc49070adb3c26de5b5d031',
+verbose bin dist     tarball: 'http://registry.npmjs.org/firmata/-/firmata-0.2.4.tgz' } ]
+verbose caching /root/.npm/firmata/0.2.4/package/package.json
+verbose loadDefaults firmata@0.2.4
+silly resolved [ { name: 'firmata',
+silly resolved     description: 'A library to control an arduino running firmata',
+silly resolved     version: '0.2.4',
+silly resolved     author: { name: 'Julian Gautier' },
+silly resolved     homepage: 'http://www.github.com/jgautier/firmata',
+silly resolved     repository: { type: 'git', url: 'git://github.com/jgautier/firmata.git' },
+silly resolved     main: 'lib/firmata',
+silly resolved     bin: { firmata: './repl.js' },
+silly resolved     devDependencies: { mocha: '>=0.13.x', should: '>=0.5.x' },
+silly resolved     dependencies: { serialport: '>=0.7.5' },
+silly resolved     scripts: { test: 'mocha test/firmata.js' },
+silly resolved     engines: { node: '*' },
+silly resolved     _id: 'firmata@0.2.4',
+silly resolved     optionalDependencies: {},
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.19',
+silly resolved     _nodeVersion: 'v0.6.18',
+silly resolved     _defaultsLoaded: true,
+silly resolved     _from: 'firmata' } ]
+info into /usr/lib firmata@0.2.4
+info installOne firmata@0.2.4
+verbose from cache /root/.npm/firmata/0.2.4/package/package.json
+info unbuild /usr/lib/node_modules/firmata
+verbose unpack /root/.npm/firmata/0.2.4/package.tgz
+silly gunzTarPerm modes [ '755', '644' ]
+silly extracting entry package.json
+silly extracting entry .npmignore
+silly extracting entry repl.js
+silly extracting entry readme.md
+silly extracting entry examples/k22.js
+silly extracting entry examples/servosweep.js
+silly extracting entry examples/blink.js
+silly extracting entry build/config.gypi
+silly extracting entry .travis.yml
+silly extracting entry lib/firmata.js
+silly extracting entry test/MockSerialPort.js
+silly extracting entry test/firmata.js
+verbose caching /usr/lib/node_modules/firmata/package.json
+verbose loadDefaults firmata@0.2.4
+info preinstall firmata@0.2.4
+verbose from cache /usr/lib/node_modules/firmata/package.json
+verbose readDependencies: using package.json deps
+verbose from cache /usr/lib/node_modules/firmata/package.json
+verbose readDependencies: using package.json deps
+verbose cache add [ 'serialport@>=0.7.5', null ]
+silly cache add: name, spec, args [ undefined,
+silly cache add: name, spec, args   'serialport@>=0.7.5',
+silly cache add: name, spec, args   [ 'serialport@>=0.7.5', null ] ]
+verbose parsed url { pathname: 'serialport@',
+verbose parsed url   path: 'serialport@',
+verbose parsed url   href: 'serialport@' }
+silly cache add: name, spec, args [ 'serialport', '>=0.7.5', [ 'serialport', '>=0.7.5' ] ]
+verbose parsed url { pathname: '=0.7.5', path: '=0.7.5', href: '=0.7.5' }
+verbose addNamed [ 'serialport', '>=0.7.5' ]
+verbose addNamed [ null, '>=0.7.5' ]
+silly name, range, hasData [ 'serialport', '>=0.7.5', false ]
+verbose raw, before any munging serialport
+verbose url resolving [ 'https://registry.npmjs.org/', './serialport' ]
+verbose url resolved https://registry.npmjs.org/serialport
+verbose etag "2LVN1FWL4KDU744KQ1FWQMBG3"
+http GET https://registry.npmjs.org/serialport
+http 304 https://registry.npmjs.org/serialport
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"2LVN1FWL4KDU744KQ1FWQMBG3"',
+silly get cb     date: 'Fri, 17 Aug 2012 05:31:58 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag serialport from cache
+silly name, range, hasData 2 [ 'serialport', '>=0.7.5', true ]
+silly versions [ 'serialport',
+silly versions   [ '0.1.0',
+silly versions     '0.1.1',
+silly versions     '0.1.3',
+silly versions     '0.2.0',
+silly versions     '0.2.2',
+silly versions     '0.2.3',
+silly versions     '0.2.4',
+silly versions     '0.2.5',
+silly versions     '0.2.6',
+silly versions     '0.2.7',
+silly versions     '0.2.8',
+silly versions     '0.2.9',
+silly versions     '0.3.0',
+silly versions     '0.6.0',
+silly versions     '0.6.1',
+silly versions     '0.6.2',
+silly versions     '0.6.3',
+silly versions     '0.6.5',
+silly versions     '0.6.6',
+silly versions     '0.6.7',
+silly versions     '0.7.0',
+silly versions     '0.7.1',
+silly versions     '0.7.2',
+silly versions     '0.7.3',
+silly versions     '0.7.4',
+silly versions     '0.7.5',
+silly versions     '1.0.0',
+silly versions     '1.0.1',
+silly versions     '1.0.2',
+silly versions     '1.0.3',
+silly versions     '1.0.4' ] ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl1.0.0i-fips-v83.6.6.25-linux-ia32-3.4.7-1.fc16.i686',
+verbose bin dist   { shasum: '0940b2c2a2aaeae3218d42802c723eea7e5bf3e0',
+verbose bin dist     tarball: 'http://registry.npmjs.org/serialport/-/serialport-1.0.4.tgz' } ]
+verbose has bindings.gyp [ undefined,
+verbose has bindings.gyp   { file: '/root/.npm/serialport/1.0.4/package/package.json',
+verbose has bindings.gyp     wscript: false,
+verbose has bindings.gyp     serverjs: false,
+verbose has bindings.gyp     gypfile: true,
+verbose has bindings.gyp     contributors: 
+verbose has bindings.gyp      [ 'Chris Williams <chris@iterativedesigns.com>',
+verbose has bindings.gyp        'Joe Ferner <joe.ferner@nearinfinity.com>',
+verbose has bindings.gyp        'Esa-Matti Suuronen <esa-matti@suuronen.org>',
+verbose has bindings.gyp        'Nathan Rajlich <nathan@tootallnate.net>',
+verbose has bindings.gyp        'Rick Waldron <waldron.rick@gmail.com>',
+verbose has bindings.gyp        '<w1nk>',
+verbose has bindings.gyp        'Georges-Etienne Legendre <legege>',
+verbose has bindings.gyp        'Duane Johnson <duane.johnson@gmail.com>',
+verbose has bindings.gyp        'Joe Ferner <joe@fernsroth.com>' ] } ]
+verbose caching /root/.npm/serialport/1.0.4/package/package.json
+verbose loadDefaults serialport@1.0.4
+silly resolved [ { name: 'serialport',
+silly resolved     version: '1.0.4',
+silly resolved     description: 'Welcome your robotic javascript overlords. Better yet, program them!',
+silly resolved     author: 
+silly resolved      { name: 'Chris Williams',
+silly resolved        email: 'voodootikigod@gmail.com',
+silly resolved        url: 'http://www.voodootikigod.com' },
+silly resolved     main: './serialport',
+silly resolved     repository: 
+silly resolved      { type: 'git',
+silly resolved        url: 'git://github.com/voodootikigod/node-serialport.git' },
+silly resolved     maintainers: 
+silly resolved      [ { name: 'Chris Williams', email: 'voodootikigod@gmail.com' },
+silly resolved        { name: 'Joe Ferner', email: 'joe.ferner@nearinfinity.com' } ],
+silly resolved     dependencies: 
+silly resolved      { bindings: '0.3.0',
+silly resolved        async: '0.1.18',
+silly resolved        sf: '0.1.3',
+silly resolved        optimist: '~0.3.4',
+silly resolved        'node-gyp': '0.6.2' },
+silly resolved     engines: { node: '>= 0.6.0' },
+silly resolved     bin: 
+silly resolved      { serialportlist: './bin/serialportList.js',
+silly resolved        serialportterm: './bin/serialportTerminal.js' },
+silly resolved     _id: 'serialport@1.0.4',
+silly resolved     scripts: { install: 'node-gyp rebuild' },
+silly resolved     contributors: 
+silly resolved      [ { name: 'Chris Williams', email: 'chris@iterativedesigns.com' },
+silly resolved        { name: 'Joe Ferner', email: 'joe.ferner@nearinfinity.com' },
+silly resolved        { name: 'Esa-Matti Suuronen', email: 'esa-matti@suuronen.org' },
+silly resolved        { name: 'Nathan Rajlich', email: 'nathan@tootallnate.net' },
+silly resolved        { name: 'Rick Waldron', email: 'waldron.rick@gmail.com' },
+silly resolved        { email: 'w1nk' },
+silly resolved        { name: 'Georges-Etienne Legendre', email: 'legege' },
+silly resolved        { name: 'Duane Johnson', email: 'duane.johnson@gmail.com' },
+silly resolved        { name: 'Joe Ferner', email: 'joe@fernsroth.com' } ],
+silly resolved     devDependencies: {},
+silly resolved     optionalDependencies: {},
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.19',
+silly resolved     _nodeVersion: 'v0.6.18',
+silly resolved     _defaultsLoaded: true,
+silly resolved     _from: 'serialport@>=0.7.5' } ]
+info into /usr/lib/node_modules/firmata serialport@1.0.4
+info installOne serialport@1.0.4
+verbose from cache /root/.npm/serialport/1.0.4/package/package.json
+info unbuild /usr/lib/node_modules/firmata/node_modules/serialport
+verbose unpack /root/.npm/serialport/1.0.4/package.tgz
+silly gunzTarPerm modes [ '755', '644' ]
+silly extracting entry package.json
+silly extracting entry .npmignore
+silly extracting entry README.md
+silly extracting entry LICENSE
+silly extracting entry serialport.js
+silly extracting entry binding.gyp
+silly extracting entry changelog.md
+silly extracting entry tests/test_read.js
+silly extracting entry tests/echoTest.js
+silly extracting entry tests/test_zwave.js
+silly extracting entry tests/arduino-ldr-read.js
+silly extracting entry tests/test_write.js
+silly extracting entry tests/arduino-ldr-read.pde
+silly extracting entry tests/arduinioEcho/arduinioEcho.ino
+silly extracting entry build/c4che/Release.cache.py
+silly extracting entry build/c4che/build.config.py
+silly extracting entry build/Release/serialport_native/serialport_native_1.o
+silly extracting entry build/config.log
+silly extracting entry src/serialport.h
+silly extracting entry src/serialport.cpp
+silly extracting entry src/serialport_win.cpp
+silly extracting entry src/serialport_unix.cpp
+silly extracting entry src/win/disphelper.c
+silly extracting entry src/win/disphelper.h
+silly extracting entry AUTHORS
+silly extracting entry examples/logger.js
+silly extracting entry bin/serialportTerminal.js
+silly extracting entry bin/serialportList.js
+verbose has bindings.gyp [ undefined,
+verbose has bindings.gyp   { file: '/usr/lib/node_modules/firmata/node_modules/serialport/package.json',
+verbose has bindings.gyp     wscript: false,
+verbose has bindings.gyp     gypfile: true,
+verbose has bindings.gyp     serverjs: false,
+verbose has bindings.gyp     contributors: 
+verbose has bindings.gyp      [ 'Chris Williams <chris@iterativedesigns.com>',
+verbose has bindings.gyp        'Joe Ferner <joe.ferner@nearinfinity.com>',
+verbose has bindings.gyp        'Esa-Matti Suuronen <esa-matti@suuronen.org>',
+verbose has bindings.gyp        'Nathan Rajlich <nathan@tootallnate.net>',
+verbose has bindings.gyp        'Rick Waldron <waldron.rick@gmail.com>',
+verbose has bindings.gyp        '<w1nk>',
+verbose has bindings.gyp        'Georges-Etienne Legendre <legege>',
+verbose has bindings.gyp        'Duane Johnson <duane.johnson@gmail.com>',
+verbose has bindings.gyp        'Joe Ferner <joe@fernsroth.com>' ] } ]
+verbose caching /usr/lib/node_modules/firmata/node_modules/serialport/package.json
+verbose loadDefaults serialport@1.0.4
+info preinstall serialport@1.0.4
+verbose from cache /usr/lib/node_modules/firmata/node_modules/serialport/package.json
+verbose readDependencies: using package.json deps
+verbose from cache /usr/lib/node_modules/firmata/node_modules/serialport/package.json
+verbose readDependencies: using package.json deps
+verbose cache add [ 'bindings@0.3.0', null ]
+silly cache add: name, spec, args [ undefined, 'bindings@0.3.0', [ 'bindings@0.3.0', null ] ]
+verbose parsed url { pathname: 'bindings@0.3.0',
+verbose parsed url   path: 'bindings@0.3.0',
+verbose parsed url   href: 'bindings@0.3.0' }
+silly cache add: name, spec, args [ 'bindings', '0.3.0', [ 'bindings', '0.3.0' ] ]
+verbose parsed url { pathname: '0.3.0', path: '0.3.0', href: '0.3.0' }
+verbose addNamed [ 'bindings', '0.3.0' ]
+verbose addNamed [ '0.3.0', '0.3.0' ]
+verbose cache add [ 'async@0.1.18', null ]
+silly cache add: name, spec, args [ undefined, 'async@0.1.18', [ 'async@0.1.18', null ] ]
+verbose parsed url { pathname: 'async@0.1.18',
+verbose parsed url   path: 'async@0.1.18',
+verbose parsed url   href: 'async@0.1.18' }
+silly cache add: name, spec, args [ 'async', '0.1.18', [ 'async', '0.1.18' ] ]
+verbose parsed url { pathname: '0.1.18', path: '0.1.18', href: '0.1.18' }
+verbose addNamed [ 'async', '0.1.18' ]
+verbose addNamed [ '0.1.18', '0.1.18' ]
+verbose cache add [ 'sf@0.1.3', null ]
+silly cache add: name, spec, args [ undefined, 'sf@0.1.3', [ 'sf@0.1.3', null ] ]
+verbose parsed url { pathname: 'sf@0.1.3', path: 'sf@0.1.3', href: 'sf@0.1.3' }
+silly cache add: name, spec, args [ 'sf', '0.1.3', [ 'sf', '0.1.3' ] ]
+verbose parsed url { pathname: '0.1.3', path: '0.1.3', href: '0.1.3' }
+verbose addNamed [ 'sf', '0.1.3' ]
+verbose addNamed [ '0.1.3', '0.1.3' ]
+verbose cache add [ 'optimist@~0.3.4', null ]
+silly cache add: name, spec, args [ undefined, 'optimist@~0.3.4', [ 'optimist@~0.3.4', null ] ]
+verbose parsed url { pathname: 'optimist@~0.3.4',
+verbose parsed url   path: 'optimist@~0.3.4',
+verbose parsed url   href: 'optimist@~0.3.4' }
+silly cache add: name, spec, args [ 'optimist', '~0.3.4', [ 'optimist', '~0.3.4' ] ]
+verbose parsed url { pathname: '~0.3.4', path: '~0.3.4', href: '~0.3.4' }
+verbose addNamed [ 'optimist', '~0.3.4' ]
+verbose addNamed [ null, '>=0.3.4- <0.4.0-' ]
+silly name, range, hasData [ 'optimist', '>=0.3.4- <0.4.0-', false ]
+verbose cache add [ 'node-gyp@0.6.2', null ]
+silly cache add: name, spec, args [ undefined, 'node-gyp@0.6.2', [ 'node-gyp@0.6.2', null ] ]
+verbose parsed url { pathname: 'node-gyp@0.6.2',
+verbose parsed url   path: 'node-gyp@0.6.2',
+verbose parsed url   href: 'node-gyp@0.6.2' }
+silly cache add: name, spec, args [ 'node-gyp', '0.6.2', [ 'node-gyp', '0.6.2' ] ]
+verbose parsed url { pathname: '0.6.2', path: '0.6.2', href: '0.6.2' }
+verbose addNamed [ 'node-gyp', '0.6.2' ]
+verbose addNamed [ '0.6.2', '0.6.2' ]
+verbose raw, before any munging bindings/0.3.0
+verbose url resolving [ 'https://registry.npmjs.org/', './bindings/0.3.0' ]
+verbose url resolved https://registry.npmjs.org/bindings/0.3.0
+verbose etag "155J65ZWP82F62RN6TCU16KAE"
+http GET https://registry.npmjs.org/bindings/0.3.0
+verbose raw, before any munging node-gyp/0.6.2
+verbose url resolving [ 'https://registry.npmjs.org/', './node-gyp/0.6.2' ]
+verbose url resolved https://registry.npmjs.org/node-gyp/0.6.2
+verbose etag "DW93OKMFMIW3A0YZS5X8XYOHO"
+http GET https://registry.npmjs.org/node-gyp/0.6.2
+verbose raw, before any munging sf/0.1.3
+verbose url resolving [ 'https://registry.npmjs.org/', './sf/0.1.3' ]
+verbose url resolved https://registry.npmjs.org/sf/0.1.3
+verbose etag "CAY877HFPII47Q0KT7B3HE112"
+http GET https://registry.npmjs.org/sf/0.1.3
+verbose raw, before any munging async/0.1.18
+verbose url resolving [ 'https://registry.npmjs.org/', './async/0.1.18' ]
+verbose url resolved https://registry.npmjs.org/async/0.1.18
+verbose etag "3NFBDOS8V62MUK5ND36G38KOH"
+http GET https://registry.npmjs.org/async/0.1.18
+verbose raw, before any munging optimist
+verbose url resolving [ 'https://registry.npmjs.org/', './optimist' ]
+verbose url resolved https://registry.npmjs.org/optimist
+verbose etag "6KOGC8BJBY3CGRAO3E9Y1YEIH"
+http GET https://registry.npmjs.org/optimist
+http 304 https://registry.npmjs.org/node-gyp/0.6.2
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"DW93OKMFMIW3A0YZS5X8XYOHO"',
+silly get cb     date: 'Fri, 17 Aug 2012 05:32:00 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag node-gyp/0.6.2 from cache
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl1.0.0i-fips-v83.6.6.25-linux-ia32-3.4.7-1.fc16.i686',
+verbose bin dist   { shasum: 'dab031f851786df7aac3419c5f53dc8d5acf1a86',
+verbose bin dist     tarball: 'http://registry.npmjs.org/node-gyp/-/node-gyp-0.6.2.tgz' } ]
+http 304 https://registry.npmjs.org/bindings/0.3.0
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"155J65ZWP82F62RN6TCU16KAE"',
+silly get cb     date: 'Fri, 17 Aug 2012 05:32:00 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag bindings/0.3.0 from cache
+verbose caching /root/.npm/node-gyp/0.6.2/package/package.json
+verbose loadDefaults node-gyp@0.6.2
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl1.0.0i-fips-v83.6.6.25-linux-ia32-3.4.7-1.fc16.i686',
+verbose bin dist   { shasum: '2d01b7061ca312c6600c9b512404fd3ef99c06f3',
+verbose bin dist     tarball: 'http://registry.npmjs.org/bindings/-/bindings-0.3.0.tgz' } ]
+http 304 https://registry.npmjs.org/async/0.1.18
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"3NFBDOS8V62MUK5ND36G38KOH"',
+silly get cb     date: 'Fri, 17 Aug 2012 05:32:01 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag async/0.1.18 from cache
+http 304 https://registry.npmjs.org/sf/0.1.3
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"CAY877HFPII47Q0KT7B3HE112"',
+silly get cb     date: 'Fri, 17 Aug 2012 05:32:01 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag sf/0.1.3 from cache
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl1.0.0i-fips-v83.6.6.25-linux-ia32-3.4.7-1.fc16.i686',
+verbose bin dist   { shasum: 'c59c923920b76d5bf23248c04433920c4d45086a',
+verbose bin dist     tarball: 'http://registry.npmjs.org/async/-/async-0.1.18.tgz' } ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl1.0.0i-fips-v83.6.6.25-linux-ia32-3.4.7-1.fc16.i686',
+verbose bin dist   { shasum: 'a5d246148241ace3788447f6a9a95b564762c354',
+verbose bin dist     tarball: 'http://registry.npmjs.org/sf/-/sf-0.1.3.tgz' } ]
+verbose caching /root/.npm/bindings/0.3.0/package/package.json
+verbose loadDefaults bindings@0.3.0
+verbose caching /root/.npm/sf/0.1.3/package/package.json
+verbose loadDefaults sf@0.1.3
+verbose caching /root/.npm/async/0.1.18/package/package.json
+verbose loadDefaults async@0.1.18
+http 304 https://registry.npmjs.org/optimist
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"6KOGC8BJBY3CGRAO3E9Y1YEIH"',
+silly get cb     date: 'Fri, 17 Aug 2012 05:32:01 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag optimist from cache
+silly name, range, hasData 2 [ 'optimist', '>=0.3.4- <0.4.0-', true ]
+silly versions [ 'optimist',
+silly versions   [ '0.0.1',
+silly versions     '0.0.2',
+silly versions     '0.0.4',
+silly versions     '0.0.5',
+silly versions     '0.0.6',
+silly versions     '0.0.7',
+silly versions     '0.1.0',
+silly versions     '0.1.1',
+silly versions     '0.1.2',
+silly versions     '0.1.3',
+silly versions     '0.1.4',
+silly versions     '0.1.5',
+silly versions     '0.1.6',
+silly versions     '0.1.7',
+silly versions     '0.1.8',
+silly versions     '0.1.9',
+silly versions     '0.0.3',
+silly versions     '0.2.0',
+silly versions     '0.2.1',
+silly versions     '0.2.2',
+silly versions     '0.2.3',
+silly versions     '0.2.4',
+silly versions     '0.2.5',
+silly versions     '0.2.6',
+silly versions     '0.2.7',
+silly versions     '0.2.8',
+silly versions     '0.3.0',
+silly versions     '0.3.1',
+silly versions     '0.3.3',
+silly versions     '0.3.4' ] ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl1.0.0i-fips-v83.6.6.25-linux-ia32-3.4.7-1.fc16.i686',
+verbose bin dist   { shasum: '4d6d0bd71ffad0da4ba4f6d876d5eeb04e07480b',
+verbose bin dist     tarball: 'http://registry.npmjs.org/optimist/-/optimist-0.3.4.tgz' } ]
+verbose caching /root/.npm/optimist/0.3.4/package/package.json
+verbose loadDefaults optimist@0.3.4
+silly resolved [ { name: 'node-gyp',
+silly resolved     description: 'Node.js native addon build tool',
+silly resolved     keywords: [ 'native', 'addon', 'module', 'c', 'c++', 'bindings', 'gyp' ],
+silly resolved     version: '0.6.2',
+silly resolved     installVersion: 9,
+silly resolved     author: 
+silly resolved      { name: 'Nathan Rajlich',
+silly resolved        email: 'nathan@tootallnate.net',
+silly resolved        url: 'http://tootallnate.net' },
+silly resolved     repository: 
+silly resolved      { type: 'git',
+silly resolved        url: 'git://github.com/TooTallNate/node-gyp.git' },
+silly resolved     preferGlobal: true,
+silly resolved     bin: { 'node-gyp': './bin/node-gyp.js' },
+silly resolved     main: './lib/node-gyp.js',
+silly resolved     dependencies: 
+silly resolved      { glob: '3',
+silly resolved        'graceful-fs': '1',
+silly resolved        fstream: '~0.1.13',
+silly resolved        minimatch: '0.2',
+silly resolved        mkdirp: '0.3',
+silly resolved        nopt: '2',
+silly resolved        npmlog: '0',
+silly resolved        osenv: '0',
+silly resolved        request: '2.9',
+silly resolved        rimraf: '2',
+silly resolved        semver: '1',
+silly resolved        tar: '~0.1.12',
+silly resolved        which: '1' },
+silly resolved     engines: { node: '>= 0.6.0' },
+silly resolved     _id: 'node-gyp@0.6.2',
+silly resolved     devDependencies: {},
+silly resolved     optionalDependencies: {},
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.19',
+silly resolved     _nodeVersion: 'v0.6.18',
+silly resolved     _defaultsLoaded: true,
+silly resolved     _from: 'node-gyp@0.6.2',
+silly resolved     scripts: {} },
+silly resolved   { name: 'bindings',
+silly resolved     description: 'Helper module for loading your native module\'s bindings in a cross-platform way',
+silly resolved     keywords: [ 'native', 'addon', 'bindings', 'gyp' ],
+silly resolved     version: '0.3.0',
+silly resolved     author: 
+silly resolved      { name: 'Nathan Rajlich',
+silly resolved        email: 'nathan@tootallnate.net',
+silly resolved        url: 'http://tootallnate.net' },
+silly resolved     repository: 
+silly resolved      { type: 'git',
+silly resolved        url: 'git://github.com/TooTallNate/node-bindings.git' },
+silly resolved     main: './bindings.js',
+silly resolved     engines: { node: '*' },
+silly resolved     _id: 'bindings@0.3.0',
+silly resolved     dependencies: {},
+silly resolved     devDependencies: {},
+silly resolved     optionalDependencies: {},
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.19',
+silly resolved     _nodeVersion: 'v0.6.18',
+silly resolved     _defaultsLoaded: true,
+silly resolved     _from: 'bindings@0.3.0',
+silly resolved     scripts: {} },
+silly resolved   { name: 'sf',
+silly resolved     description: 'String formatting library for node.js',
+silly resolved     author: { name: 'Joe Ferner', email: 'joe.ferner@nearinfinity.com' },
+silly resolved     keywords: [ 'string', 'format', 'template' ],
+silly resolved     version: '0.1.3',
+silly resolved     engines: { node: '>=0.6.0' },
+silly resolved     maintainers: [ { name: 'Joe Ferner', email: 'joe.ferner@nearinfinity.com' } ],
+silly resolved     bugs: { url: 'https://github.com/nearinfinity/node-sf/issues' },
+silly resolved     license: 'MIT',
+silly resolved     repository: 
+silly resolved      { type: 'git',
+silly resolved        url: 'git://github.com/nearinfinity/node-sf.git' },
+silly resolved     devDependencies: { nodeunit: '~0.7.3' },
+silly resolved     scripts: { test: 'nodeunit test' },
+silly resolved     main: './index.js',
+silly resolved     _id: 'sf@0.1.3',
+silly resolved     dependencies: {},
+silly resolved     optionalDependencies: {},
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.19',
+silly resolved     _nodeVersion: 'v0.6.18',
+silly resolved     _defaultsLoaded: true,
+silly resolved     _from: 'sf@0.1.3' },
+silly resolved   { name: 'async',
+silly resolved     description: 'Higher-order functions and common patterns for asynchronous code',
+silly resolved     main: './index',
+silly resolved     author: { name: 'Caolan McMahon' },
+silly resolved     version: '0.1.18',
+silly resolved     repository: { type: 'git', url: 'git://github.com/caolan/async.git' },
+silly resolved     bugs: { url: 'http://github.com/caolan/async/issues' },
+silly resolved     licenses: 
+silly resolved      [ { type: 'MIT',
+silly resolved          url: 'http://github.com/caolan/async/raw/master/LICENSE' } ],
+silly resolved     devDependencies: { nodeunit: '>0.0.0', 'uglify-js': '1.2.x', nodelint: '>0.0.0' },
+silly resolved     _id: 'async@0.1.18',
+silly resolved     dependencies: {},
+silly resolved     optionalDependencies: {},
+silly resolved     engines: { node: '*' },
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.19',
+silly resolved     _nodeVersion: 'v0.6.18',
+silly resolved     _defaultsLoaded: true,
+silly resolved     _from: 'async@0.1.18',
+silly resolved     scripts: {} },
+silly resolved   { name: 'optimist',
+silly resolved     version: '0.3.4',
+silly resolved     description: 'Light-weight option parsing with an argv hash. No optstrings attached.',
+silly resolved     main: './index.js',
+silly resolved     directories: { lib: '.', test: 'test', example: 'example' },
+silly resolved     dependencies: { wordwrap: '~0.0.2' },
+silly resolved     devDependencies: { hashish: '~0.0.4', tap: '~0.2.4' },
+silly resolved     scripts: { test: 'tap ./test/*.js' },
+silly resolved     repository: 
+silly resolved      { type: 'git',
+silly resolved        url: 'git://github.com/substack/node-optimist.git' },
+silly resolved     keywords: 
+silly resolved      [ 'argument',
+silly resolved        'args',
+silly resolved        'option',
+silly resolved        'parser',
+silly resolved        'parsing',
+silly resolved        'cli',
+silly resolved        'command' ],
+silly resolved     author: 
+silly resolved      { name: 'James Halliday',
+silly resolved        email: 'mail@substack.net',
+silly resolved        url: 'http://substack.net' },
+silly resolved     license: 'MIT/X11',
+silly resolved     engine: { node: '>=0.4' },
+silly resolved     _id: 'optimist@0.3.4',
+silly resolved     optionalDependencies: {},
+silly resolved     engines: { node: '*' },
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.19',
+silly resolved     _nodeVersion: 'v0.6.18',
+silly resolved     _defaultsLoaded: true,
+silly resolved     _from: 'optimist@~0.3.4' } ]
+info into /usr/lib/node_modules/firmata/node_modules/serialport node-gyp@0.6.2
+info into /usr/lib/node_modules/firmata/node_modules/serialport bindings@0.3.0
+info into /usr/lib/node_modules/firmata/node_modules/serialport sf@0.1.3
+info into /usr/lib/node_modules/firmata/node_modules/serialport async@0.1.18
+info into /usr/lib/node_modules/firmata/node_modules/serialport optimist@0.3.4
+info installOne node-gyp@0.6.2
+info installOne bindings@0.3.0
+info installOne sf@0.1.3
+info installOne async@0.1.18
+info installOne optimist@0.3.4
+verbose from cache /root/.npm/node-gyp/0.6.2/package/package.json
+info unbuild /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp
+verbose from cache /root/.npm/bindings/0.3.0/package/package.json
+info unbuild /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/bindings
+verbose from cache /root/.npm/sf/0.1.3/package/package.json
+info unbuild /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/sf
+verbose from cache /root/.npm/async/0.1.18/package/package.json
+info unbuild /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/async
+verbose from cache /root/.npm/optimist/0.3.4/package/package.json
+info unbuild /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/optimist
+verbose unpack /root/.npm/node-gyp/0.6.2/package.tgz
+verbose unpack /root/.npm/bindings/0.3.0/package.tgz
+verbose unpack /root/.npm/sf/0.1.3/package.tgz
+verbose unpack /root/.npm/async/0.1.18/package.tgz
+verbose unpack /root/.npm/optimist/0.3.4/package.tgz
+silly gunzTarPerm modes [ '755', '644' ]
+silly gunzTarPerm modes [ '755', '644' ]
+silly gunzTarPerm modes [ '755', '644' ]
+silly gunzTarPerm modes [ '755', '644' ]
+silly gunzTarPerm modes [ '755', '644' ]
+silly extracting entry package.json
+silly extracting entry package.json
+silly extracting entry package.json
+silly extracting entry .npmignore
+silly extracting entry README.md
+silly extracting entry .npmignore
+silly extracting entry README.md
+silly extracting entry LICENSE
+silly extracting entry index.js
+silly extracting entry package.json
+silly extracting entry LICENSE
+silly extracting entry updateLegacy.sh
+silly extracting entry README.md
+silly extracting entry bindings.js
+silly extracting entry LICENSE
+silly extracting entry index.js
+silly extracting entry example/reflect.js
+silly extracting entry example/bool.js
+silly extracting entry example/line_count_wrap.js
+silly extracting entry legacy/tools/addon.gypi
+silly extracting entry legacy/tools/gyp/.npmignore
+silly extracting entry package.json
+silly extracting entry legacy/tools/gyp/LICENSE
+silly extracting entry legacy/tools/gyp/gyptest.py
+silly extracting entry .gitmodules
+silly extracting entry Makefile
+silly extracting entry legacy/tools/gyp/MANIFEST
+silly extracting entry .npmignore
+silly extracting entry README.md
+silly extracting entry legacy/tools/gyp/samples/samples.bat
+silly extracting entry lib/async.js
+silly extracting entry example/usage-options.js
+silly extracting entry example/default_singles.js
+silly extracting entry legacy/tools/gyp/samples/samples
+silly extracting entry legacy/tools/gyp/gyp
+silly extracting entry example/short.js
+silly extracting entry legacy/tools/gyp/PRESUBMIT.py
+silly extracting entry example/boolean_double.js
+silly extracting entry legacy/tools/gyp/buildbot/buildbot_run.py
+silly extracting entry example/line_count_options.js
+silly extracting entry legacy/tools/gyp/pylib/gyp/MSVSSettings.py
+silly extracting entry example/boolean_single.js
+silly extracting entry example/line_count.js
+silly extracting entry index.js
+silly extracting entry lib/stringFormat.js
+silly extracting entry example/nonopt.js
+silly extracting entry example/divide.js
+silly extracting entry example/default_hash.js
+silly extracting entry example/xup.js
+silly extracting entry example/string.js
+silly extracting entry legacy/tools/gyp/pylib/gyp/MSVSSettings_test.py
+silly extracting entry legacy/tools/gyp/pylib/gyp/input.py
+silly extracting entry .travis.yml
+silly extracting entry test/usage.js
+silly extracting entry test/indentTest.js
+silly extracting entry test/stringFormatTest.js
+silly extracting entry test/_.js
+silly extracting entry test/parse.js
+silly extracting entry test/_/bin.js
+silly extracting entry legacy/tools/gyp/pylib/gyp/__init__.py
+silly extracting entry test/_/argv.js
+silly extracting entry README.markdown
+silly extracting entry legacy/tools/gyp/pylib/gyp/SCons.py
+silly extracting entry legacy/tools/gyp/pylib/gyp/MSVSVersion.py
+verbose caching /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/bindings/package.json
+verbose loadDefaults bindings@0.3.0
+silly extracting entry legacy/tools/gyp/pylib/gyp/ninja_syntax.py
+silly extracting entry legacy/tools/gyp/pylib/gyp/common.py
+info preinstall bindings@0.3.0
+verbose from cache /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/bindings/package.json
+verbose readDependencies: using package.json deps
+verbose from cache /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/bindings/package.json
+verbose readDependencies: using package.json deps
+silly resolved []
+verbose about to build /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/bindings
+info build /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/bindings
+verbose from cache /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/bindings/package.json
+verbose linkStuff [ true,
+verbose linkStuff   '/usr/lib/node_modules',
+verbose linkStuff   false,
+verbose linkStuff   '/usr/lib/node_modules/firmata/node_modules/serialport/node_modules' ]
+info linkStuff bindings@0.3.0
+verbose linkBins bindings@0.3.0
+verbose linkMans bindings@0.3.0
+verbose rebuildBundles bindings@0.3.0
+info install bindings@0.3.0
+info postinstall bindings@0.3.0
+silly extracting entry legacy/tools/gyp/pylib/gyp/MSVSToolFile.py
+silly extracting entry legacy/tools/gyp/pylib/gyp/mac_tool.py
+silly extracting entry legacy/tools/gyp/pylib/gyp/xcodeproj_file.py
+silly extracting entry legacy/tools/gyp/pylib/gyp/system_test.py
+silly extracting entry legacy/tools/gyp/pylib/gyp/MSVSProject.py
+silly extracting entry legacy/tools/gyp/pylib/gyp/MSVSNew.py
+silly extracting entry legacy/tools/gyp/pylib/gyp/easy_xml_test.py
+silly extracting entry legacy/tools/gyp/pylib/gyp/sun_tool.py
+silly extracting entry legacy/tools/gyp/pylib/gyp/MSVSUserFile.py
+silly extracting entry legacy/tools/gyp/pylib/gyp/xml_fix.py
+silly extracting entry legacy/tools/gyp/pylib/gyp/xcode_emulation.py
+silly extracting entry legacy/tools/gyp/pylib/gyp/generator/gypsh.py
+silly extracting entry legacy/tools/gyp/pylib/gyp/generator/dump_dependency_json.py
+silly extracting entry legacy/tools/gyp/pylib/gyp/generator/make.py
+silly extracting entry legacy/tools/gyp/pylib/gyp/generator/msvs_test.py
+silly extracting entry legacy/tools/gyp/pylib/gyp/generator/scons.py
+silly extracting entry legacy/tools/gyp/pylib/gyp/generator/__init__.py
+silly extracting entry legacy/tools/gyp/pylib/gyp/generator/ninja_test.py
+silly extracting entry legacy/tools/gyp/pylib/gyp/generator/msvs.py
+silly extracting entry legacy/tools/gyp/pylib/gyp/generator/ninja.py
+silly extracting entry legacy/tools/gyp/pylib/gyp/generator/gypd.py
+silly extracting entry legacy/tools/gyp/pylib/gyp/generator/xcode.py
+silly extracting entry legacy/tools/gyp/pylib/gyp/easy_xml.py
+verbose caching /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/sf/package.json
+verbose loadDefaults sf@0.1.3
+silly extracting entry legacy/tools/gyp/codereview.settings
+silly extracting entry legacy/tools/gyp/AUTHORS
+info preinstall sf@0.1.3
+silly extracting entry legacy/tools/gyp/tools/README
+verbose from cache /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/sf/package.json
+silly extracting entry legacy/tools/gyp/tools/pretty_gyp.py
+verbose readDependencies: using package.json deps
+verbose from cache /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/sf/package.json
+silly extracting entry legacy/tools/gyp/tools/graphviz.py
+verbose readDependencies: using package.json deps
+silly resolved []
+verbose about to build /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/sf
+info build /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/sf
+verbose from cache /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/sf/package.json
+verbose linkStuff [ true,
+verbose linkStuff   '/usr/lib/node_modules',
+verbose linkStuff   false,
+verbose linkStuff   '/usr/lib/node_modules/firmata/node_modules/serialport/node_modules' ]
+info linkStuff sf@0.1.3
+verbose linkBins sf@0.1.3
+verbose linkMans sf@0.1.3
+verbose rebuildBundles sf@0.1.3
+silly extracting entry legacy/tools/gyp/tools/pretty_vcproj.py
+info install sf@0.1.3
+info postinstall sf@0.1.3
+silly extracting entry legacy/tools/gyp/tools/pretty_sln.py
+silly extracting entry legacy/tools/gyp/tools/Xcode/README
+silly extracting entry legacy/tools/gyp/tools/Xcode/Specifications/gyp.xclangspec
+silly extracting entry legacy/tools/gyp/tools/Xcode/Specifications/gyp.pbfilespec
+silly extracting entry legacy/tools/gyp/gyp_dummy.c
+silly extracting entry legacy/tools/gyp/DEPS
+silly extracting entry legacy/tools/gyp/OWNERS
+silly extracting entry legacy/tools/gyp/gyp.bat
+silly extracting entry legacy/tools/gyp/pylintrc
+silly extracting entry legacy/tools/gyp/setup.py
+verbose caching /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/async/package.json
+verbose loadDefaults async@0.1.18
+silly extracting entry legacy/tools/gyp_addon
+silly extracting entry legacy/common.gypi
+silly extracting entry lib/node-gyp.js
+info preinstall async@0.1.18
+silly extracting entry lib/install.js
+silly extracting entry lib/remove.js
+verbose from cache /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/async/package.json
+silly extracting entry lib/build.js
+verbose readDependencies: using package.json deps
+verbose from cache /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/async/package.json
+silly extracting entry lib/configure.js
+verbose readDependencies: using package.json deps
+silly resolved []
+verbose about to build /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/async
+info build /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/async
+verbose from cache /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/async/package.json
+verbose linkStuff [ true,
+verbose linkStuff   '/usr/lib/node_modules',
+verbose linkStuff   false,
+verbose linkStuff   '/usr/lib/node_modules/firmata/node_modules/serialport/node_modules' ]
+info linkStuff async@0.1.18
+verbose linkBins async@0.1.18
+verbose linkMans async@0.1.18
+verbose rebuildBundles async@0.1.18
+silly extracting entry lib/clean.js
+info install async@0.1.18
+silly extracting entry lib/rebuild.js
+silly extracting entry lib/list.js
+info postinstall async@0.1.18
+silly extracting entry bin/node-gyp.js
+verbose caching /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/optimist/package.json
+verbose loadDefaults optimist@0.3.4
+info preinstall optimist@0.3.4
+verbose from cache /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/optimist/package.json
+verbose readDependencies: using package.json deps
+verbose from cache /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/optimist/package.json
+verbose readDependencies: using package.json deps
+verbose cache add [ 'wordwrap@~0.0.2', null ]
+silly cache add: name, spec, args [ undefined, 'wordwrap@~0.0.2', [ 'wordwrap@~0.0.2', null ] ]
+verbose parsed url { pathname: 'wordwrap@~0.0.2',
+verbose parsed url   path: 'wordwrap@~0.0.2',
+verbose parsed url   href: 'wordwrap@~0.0.2' }
+silly cache add: name, spec, args [ 'wordwrap', '~0.0.2', [ 'wordwrap', '~0.0.2' ] ]
+verbose parsed url { pathname: '~0.0.2', path: '~0.0.2', href: '~0.0.2' }
+verbose addNamed [ 'wordwrap', '~0.0.2' ]
+verbose addNamed [ null, '>=0.0.2- <0.1.0-' ]
+silly name, range, hasData [ 'wordwrap', '>=0.0.2- <0.1.0-', false ]
+verbose raw, before any munging wordwrap
+verbose url resolving [ 'https://registry.npmjs.org/', './wordwrap' ]
+verbose url resolved https://registry.npmjs.org/wordwrap
+verbose etag "8WRJE0XR86PXBA0WOGF5VQNHG"
+http GET https://registry.npmjs.org/wordwrap
+verbose caching /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/package.json
+verbose loadDefaults node-gyp@0.6.2
+info preinstall node-gyp@0.6.2
+verbose from cache /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/package.json
+verbose readDependencies: using package.json deps
+verbose from cache /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/package.json
+verbose readDependencies: using package.json deps
+verbose cache add [ 'glob@3', null ]
+silly cache add: name, spec, args [ undefined, 'glob@3', [ 'glob@3', null ] ]
+verbose parsed url { pathname: 'glob@3', path: 'glob@3', href: 'glob@3' }
+silly cache add: name, spec, args [ 'glob', '3', [ 'glob', '3' ] ]
+verbose parsed url { pathname: '3', path: '3', href: '3' }
+verbose addNamed [ 'glob', '3' ]
+verbose addNamed [ null, '>=3.0.0- <4.0.0-' ]
+silly name, range, hasData [ 'glob', '>=3.0.0- <4.0.0-', false ]
+verbose cache add [ 'graceful-fs@1', null ]
+silly cache add: name, spec, args [ undefined, 'graceful-fs@1', [ 'graceful-fs@1', null ] ]
+verbose parsed url { pathname: 'graceful-fs@1',
+verbose parsed url   path: 'graceful-fs@1',
+verbose parsed url   href: 'graceful-fs@1' }
+silly cache add: name, spec, args [ 'graceful-fs', '1', [ 'graceful-fs', '1' ] ]
+verbose parsed url { pathname: '1', path: '1', href: '1' }
+verbose addNamed [ 'graceful-fs', '1' ]
+verbose addNamed [ null, '>=1.0.0- <2.0.0-' ]
+silly name, range, hasData [ 'graceful-fs', '>=1.0.0- <2.0.0-', false ]
+verbose cache add [ 'fstream@~0.1.13', null ]
+silly cache add: name, spec, args [ undefined, 'fstream@~0.1.13', [ 'fstream@~0.1.13', null ] ]
+verbose parsed url { pathname: 'fstream@~0.1.13',
+verbose parsed url   path: 'fstream@~0.1.13',
+verbose parsed url   href: 'fstream@~0.1.13' }
+silly cache add: name, spec, args [ 'fstream', '~0.1.13', [ 'fstream', '~0.1.13' ] ]
+verbose parsed url { pathname: '~0.1.13', path: '~0.1.13', href: '~0.1.13' }
+verbose addNamed [ 'fstream', '~0.1.13' ]
+verbose addNamed [ null, '>=0.1.13- <0.2.0-' ]
+silly name, range, hasData [ 'fstream', '>=0.1.13- <0.2.0-', false ]
+verbose cache add [ 'minimatch@0.2', null ]
+silly cache add: name, spec, args [ undefined, 'minimatch@0.2', [ 'minimatch@0.2', null ] ]
+verbose parsed url { pathname: 'minimatch@0.2',
+verbose parsed url   path: 'minimatch@0.2',
+verbose parsed url   href: 'minimatch@0.2' }
+silly cache add: name, spec, args [ 'minimatch', '0.2', [ 'minimatch', '0.2' ] ]
+verbose parsed url { pathname: '0.2', path: '0.2', href: '0.2' }
+verbose addNamed [ 'minimatch', '0.2' ]
+verbose addNamed [ null, '>=0.2.0- <0.3.0-' ]
+silly name, range, hasData [ 'minimatch', '>=0.2.0- <0.3.0-', false ]
+verbose cache add [ 'mkdirp@0.3', null ]
+silly cache add: name, spec, args [ undefined, 'mkdirp@0.3', [ 'mkdirp@0.3', null ] ]
+verbose parsed url { pathname: 'mkdirp@0.3',
+verbose parsed url   path: 'mkdirp@0.3',
+verbose parsed url   href: 'mkdirp@0.3' }
+silly cache add: name, spec, args [ 'mkdirp', '0.3', [ 'mkdirp', '0.3' ] ]
+verbose parsed url { pathname: '0.3', path: '0.3', href: '0.3' }
+verbose addNamed [ 'mkdirp', '0.3' ]
+verbose addNamed [ null, '>=0.3.0- <0.4.0-' ]
+silly name, range, hasData [ 'mkdirp', '>=0.3.0- <0.4.0-', false ]
+verbose cache add [ 'nopt@2', null ]
+silly cache add: name, spec, args [ undefined, 'nopt@2', [ 'nopt@2', null ] ]
+verbose parsed url { pathname: 'nopt@2', path: 'nopt@2', href: 'nopt@2' }
+silly cache add: name, spec, args [ 'nopt', '2', [ 'nopt', '2' ] ]
+verbose parsed url { pathname: '2', path: '2', href: '2' }
+verbose addNamed [ 'nopt', '2' ]
+verbose addNamed [ null, '>=2.0.0- <3.0.0-' ]
+silly name, range, hasData [ 'nopt', '>=2.0.0- <3.0.0-', false ]
+verbose cache add [ 'npmlog@0', null ]
+silly cache add: name, spec, args [ undefined, 'npmlog@0', [ 'npmlog@0', null ] ]
+verbose parsed url { pathname: 'npmlog@0', path: 'npmlog@0', href: 'npmlog@0' }
+silly cache add: name, spec, args [ 'npmlog', '0', [ 'npmlog', '0' ] ]
+verbose parsed url { pathname: '0', path: '0', href: '0' }
+verbose addNamed [ 'npmlog', '0' ]
+verbose addNamed [ null, '>=0.0.0- <1.0.0-' ]
+silly name, range, hasData [ 'npmlog', '>=0.0.0- <1.0.0-', false ]
+verbose cache add [ 'osenv@0', null ]
+silly cache add: name, spec, args [ undefined, 'osenv@0', [ 'osenv@0', null ] ]
+verbose parsed url { pathname: 'osenv@0', path: 'osenv@0', href: 'osenv@0' }
+silly cache add: name, spec, args [ 'osenv', '0', [ 'osenv', '0' ] ]
+verbose parsed url { pathname: '0', path: '0', href: '0' }
+verbose addNamed [ 'osenv', '0' ]
+verbose addNamed [ null, '>=0.0.0- <1.0.0-' ]
+silly name, range, hasData [ 'osenv', '>=0.0.0- <1.0.0-', false ]
+verbose cache add [ 'request@2.9', null ]
+silly cache add: name, spec, args [ undefined, 'request@2.9', [ 'request@2.9', null ] ]
+verbose parsed url { pathname: 'request@2.9',
+verbose parsed url   path: 'request@2.9',
+verbose parsed url   href: 'request@2.9' }
+silly cache add: name, spec, args [ 'request', '2.9', [ 'request', '2.9' ] ]
+verbose parsed url { pathname: '2.9', path: '2.9', href: '2.9' }
+verbose addNamed [ 'request', '2.9' ]
+verbose addNamed [ null, '>=2.9.0- <2.10.0-' ]
+silly name, range, hasData [ 'request', '>=2.9.0- <2.10.0-', false ]
+verbose cache add [ 'rimraf@2', null ]
+silly cache add: name, spec, args [ undefined, 'rimraf@2', [ 'rimraf@2', null ] ]
+verbose parsed url { pathname: 'rimraf@2', path: 'rimraf@2', href: 'rimraf@2' }
+silly cache add: name, spec, args [ 'rimraf', '2', [ 'rimraf', '2' ] ]
+verbose parsed url { pathname: '2', path: '2', href: '2' }
+verbose addNamed [ 'rimraf', '2' ]
+verbose addNamed [ null, '>=2.0.0- <3.0.0-' ]
+silly name, range, hasData [ 'rimraf', '>=2.0.0- <3.0.0-', false ]
+verbose cache add [ 'semver@1', null ]
+silly cache add: name, spec, args [ undefined, 'semver@1', [ 'semver@1', null ] ]
+verbose parsed url { pathname: 'semver@1', path: 'semver@1', href: 'semver@1' }
+silly cache add: name, spec, args [ 'semver', '1', [ 'semver', '1' ] ]
+verbose parsed url { pathname: '1', path: '1', href: '1' }
+verbose addNamed [ 'semver', '1' ]
+verbose addNamed [ null, '>=1.0.0- <2.0.0-' ]
+silly name, range, hasData [ 'semver', '>=1.0.0- <2.0.0-', false ]
+verbose cache add [ 'tar@~0.1.12', null ]
+silly cache add: name, spec, args [ undefined, 'tar@~0.1.12', [ 'tar@~0.1.12', null ] ]
+verbose parsed url { pathname: 'tar@~0.1.12',
+verbose parsed url   path: 'tar@~0.1.12',
+verbose parsed url   href: 'tar@~0.1.12' }
+silly cache add: name, spec, args [ 'tar', '~0.1.12', [ 'tar', '~0.1.12' ] ]
+verbose parsed url { pathname: '~0.1.12', path: '~0.1.12', href: '~0.1.12' }
+verbose addNamed [ 'tar', '~0.1.12' ]
+verbose addNamed [ null, '>=0.1.12- <0.2.0-' ]
+silly name, range, hasData [ 'tar', '>=0.1.12- <0.2.0-', false ]
+verbose cache add [ 'which@1', null ]
+silly cache add: name, spec, args [ undefined, 'which@1', [ 'which@1', null ] ]
+verbose parsed url { pathname: 'which@1', path: 'which@1', href: 'which@1' }
+silly cache add: name, spec, args [ 'which', '1', [ 'which', '1' ] ]
+verbose parsed url { pathname: '1', path: '1', href: '1' }
+verbose addNamed [ 'which', '1' ]
+verbose addNamed [ null, '>=1.0.0- <2.0.0-' ]
+silly name, range, hasData [ 'which', '>=1.0.0- <2.0.0-', false ]
+verbose raw, before any munging glob
+verbose url resolving [ 'https://registry.npmjs.org/', './glob' ]
+verbose url resolved https://registry.npmjs.org/glob
+verbose etag "COJFHIJDISCZJP4BELGKVZIN5"
+http GET https://registry.npmjs.org/glob
+verbose raw, before any munging graceful-fs
+verbose url resolving [ 'https://registry.npmjs.org/', './graceful-fs' ]
+verbose url resolved https://registry.npmjs.org/graceful-fs
+verbose etag "DTZC83H4AURJ3NGT0Q9TISCL6"
+http GET https://registry.npmjs.org/graceful-fs
+verbose raw, before any munging fstream
+verbose url resolving [ 'https://registry.npmjs.org/', './fstream' ]
+verbose url resolved https://registry.npmjs.org/fstream
+verbose etag "B4328GZGSXIIG473ESPZKT96V"
+http GET https://registry.npmjs.org/fstream
+verbose raw, before any munging nopt
+verbose url resolving [ 'https://registry.npmjs.org/', './nopt' ]
+verbose url resolved https://registry.npmjs.org/nopt
+verbose etag "7N4HC247419MJK8G4S6FCFCUR"
+http GET https://registry.npmjs.org/nopt
+verbose raw, before any munging mkdirp
+verbose url resolving [ 'https://registry.npmjs.org/', './mkdirp' ]
+verbose url resolved https://registry.npmjs.org/mkdirp
+verbose etag "2X1HH230N5KQWY7K1TF1AQN4Q"
+http GET https://registry.npmjs.org/mkdirp
+verbose raw, before any munging npmlog
+verbose url resolving [ 'https://registry.npmjs.org/', './npmlog' ]
+verbose url resolved https://registry.npmjs.org/npmlog
+verbose etag "7S983RX184XVAEDG6U6EVTV1E"
+http GET https://registry.npmjs.org/npmlog
+verbose raw, before any munging osenv
+verbose url resolving [ 'https://registry.npmjs.org/', './osenv' ]
+verbose url resolved https://registry.npmjs.org/osenv
+verbose etag "3T2S5H09VGBJ7IZNGX5HHTQ6N"
+http GET https://registry.npmjs.org/osenv
+verbose raw, before any munging semver
+verbose url resolving [ 'https://registry.npmjs.org/', './semver' ]
+verbose url resolved https://registry.npmjs.org/semver
+verbose etag "E8JYOZJ5TVWTVEQC6NXQDZ9VM"
+http GET https://registry.npmjs.org/semver
+verbose raw, before any munging tar
+verbose url resolving [ 'https://registry.npmjs.org/', './tar' ]
+verbose url resolved https://registry.npmjs.org/tar
+verbose etag "BEN0JVSMTRFJL1L9NFMZ6VSR"
+http GET https://registry.npmjs.org/tar
+verbose raw, before any munging minimatch
+verbose url resolving [ 'https://registry.npmjs.org/', './minimatch' ]
+verbose url resolved https://registry.npmjs.org/minimatch
+verbose etag "4LBBTRTU7XDX5POL65FCU08HN"
+http GET https://registry.npmjs.org/minimatch
+verbose raw, before any munging rimraf
+verbose url resolving [ 'https://registry.npmjs.org/', './rimraf' ]
+verbose url resolved https://registry.npmjs.org/rimraf
+verbose etag "D2UXC2R80Y11P9NAXJ2EPSU73"
+http GET https://registry.npmjs.org/rimraf
+verbose raw, before any munging which
+verbose url resolving [ 'https://registry.npmjs.org/', './which' ]
+verbose url resolved https://registry.npmjs.org/which
+verbose etag "2XZSECGJ134V0ZY8ZYTFC2T2Y"
+http GET https://registry.npmjs.org/which
+verbose raw, before any munging request
+verbose url resolving [ 'https://registry.npmjs.org/', './request' ]
+verbose url resolved https://registry.npmjs.org/request
+verbose etag "6OH1SHMFVPMVDXVK6KISTORWC"
+http GET https://registry.npmjs.org/request
+http 304 https://registry.npmjs.org/wordwrap
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"8WRJE0XR86PXBA0WOGF5VQNHG"',
+silly get cb     date: 'Fri, 17 Aug 2012 05:32:04 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag wordwrap from cache
+silly name, range, hasData 2 [ 'wordwrap', '>=0.0.2- <0.1.0-', true ]
+silly versions [ 'wordwrap', [ '0.0.1', '0.0.2' ] ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl1.0.0i-fips-v83.6.6.25-linux-ia32-3.4.7-1.fc16.i686',
+verbose bin dist   { shasum: 'b79669bb42ecb409f83d583cad52ca17eaa1643f',
+verbose bin dist     tarball: 'http://registry.npmjs.org/wordwrap/-/wordwrap-0.0.2.tgz' } ]
+verbose caching /root/.npm/wordwrap/0.0.2/package/package.json
+verbose loadDefaults wordwrap@0.0.2
+silly resolved [ { name: 'wordwrap',
+silly resolved     description: 'Wrap those words. Show them at what columns to start and stop.',
+silly resolved     version: '0.0.2',
+silly resolved     repository: 
+silly resolved      { type: 'git',
+silly resolved        url: 'git://github.com/substack/node-wordwrap.git' },
+silly resolved     main: './index.js',
+silly resolved     keywords: [ 'word', 'wrap', 'rule', 'format', 'column' ],
+silly resolved     directories: { lib: '.', example: 'example', test: 'test' },
+silly resolved     scripts: { test: 'expresso' },
+silly resolved     devDependencies: { expresso: '=0.7.x' },
+silly resolved     engines: { node: '>=0.4.0' },
+silly resolved     license: 'MIT/X11',
+silly resolved     author: 
+silly resolved      { name: 'James Halliday',
+silly resolved        email: 'mail@substack.net',
+silly resolved        url: 'http://substack.net' },
+silly resolved     _id: 'wordwrap@0.0.2',
+silly resolved     dependencies: {},
+silly resolved     optionalDependencies: {},
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.19',
+silly resolved     _nodeVersion: 'v0.6.18',
+silly resolved     _defaultsLoaded: true,
+silly resolved     _from: 'wordwrap@~0.0.2' } ]
+info into /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/optimist wordwrap@0.0.2
+info installOne wordwrap@0.0.2
+verbose from cache /root/.npm/wordwrap/0.0.2/package/package.json
+info unbuild /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/optimist/node_modules/wordwrap
+verbose unpack /root/.npm/wordwrap/0.0.2/package.tgz
+silly gunzTarPerm modes [ '755', '644' ]
+silly extracting entry package.json
+silly extracting entry .npmignore
+silly extracting entry index.js
+silly extracting entry example/meat.js
+silly extracting entry example/center.js
+silly extracting entry test/break.js
+silly extracting entry test/wrap.js
+silly extracting entry test/idleness.txt
+silly extracting entry README.markdown
+verbose caching /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/optimist/node_modules/wordwrap/package.json
+verbose loadDefaults wordwrap@0.0.2
+info preinstall wordwrap@0.0.2
+verbose from cache /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/optimist/node_modules/wordwrap/package.json
+verbose readDependencies: using package.json deps
+verbose from cache /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/optimist/node_modules/wordwrap/package.json
+verbose readDependencies: using package.json deps
+silly resolved []
+verbose about to build /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/optimist/node_modules/wordwrap
+info build /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/optimist/node_modules/wordwrap
+verbose from cache /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/optimist/node_modules/wordwrap/package.json
+verbose linkStuff [ true,
+verbose linkStuff   '/usr/lib/node_modules',
+verbose linkStuff   false,
+verbose linkStuff   '/usr/lib/node_modules/firmata/node_modules/serialport/node_modules/optimist/node_modules' ]
+info linkStuff wordwrap@0.0.2
+verbose linkBins wordwrap@0.0.2
+verbose linkMans wordwrap@0.0.2
+verbose rebuildBundles wordwrap@0.0.2
+info install wordwrap@0.0.2
+info postinstall wordwrap@0.0.2
+verbose about to build /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/optimist
+info build /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/optimist
+verbose from cache /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/optimist/package.json
+verbose linkStuff [ true,
+verbose linkStuff   '/usr/lib/node_modules',
+verbose linkStuff   false,
+verbose linkStuff   '/usr/lib/node_modules/firmata/node_modules/serialport/node_modules' ]
+info linkStuff optimist@0.3.4
+verbose linkBins optimist@0.3.4
+verbose linkMans optimist@0.3.4
+verbose rebuildBundles optimist@0.3.4
+verbose rebuildBundles [ 'wordwrap' ]
+info install optimist@0.3.4
+info postinstall optimist@0.3.4
+http 304 https://registry.npmjs.org/fstream
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"B4328GZGSXIIG473ESPZKT96V"',
+silly get cb     date: 'Fri, 17 Aug 2012 05:32:04 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag fstream from cache
+http 304 https://registry.npmjs.org/glob
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"COJFHIJDISCZJP4BELGKVZIN5"',
+silly get cb     date: 'Fri, 17 Aug 2012 05:32:04 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag glob from cache
+silly name, range, hasData 2 [ 'fstream', '>=0.1.13- <0.2.0-', true ]
+silly versions [ 'fstream',
+silly versions   [ '0.0.0',
+silly versions     '0.0.1',
+silly versions     '0.1.0',
+silly versions     '0.1.1',
+silly versions     '0.1.2',
+silly versions     '0.1.3',
+silly versions     '0.1.5',
+silly versions     '0.1.6',
+silly versions     '0.1.7',
+silly versions     '0.1.8',
+silly versions     '0.1.9',
+silly versions     '0.1.10',
+silly versions     '0.1.11',
+silly versions     '0.1.12',
+silly versions     '0.1.13',
+silly versions     '0.1.14',
+silly versions     '0.1.15',
+silly versions     '0.1.16',
+silly versions     '0.1.17',
+silly versions     '0.1.18' ] ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl1.0.0i-fips-v83.6.6.25-linux-ia32-3.4.7-1.fc16.i686',
+verbose bin dist   { shasum: '741660affc0b175e57050498d060e53764a3aa34',
+verbose bin dist     tarball: 'http://registry.npmjs.org/fstream/-/fstream-0.1.18.tgz' } ]
+silly name, range, hasData 2 [ 'glob', '>=3.0.0- <4.0.0-', true ]
+silly versions [ 'glob',
+silly versions   [ '1.1.0',
+silly versions     '2.1.0',
+silly versions     '3.0.0',
+silly versions     '3.0.1',
+silly versions     '3.1.0',
+silly versions     '3.1.1',
+silly versions     '3.1.2',
+silly versions     '3.1.3',
+silly versions     '3.1.4',
+silly versions     '3.1.5',
+silly versions     '3.1.6',
+silly versions     '3.1.7',
+silly versions     '3.1.9',
+silly versions     '3.1.10',
+silly versions     '3.1.11',
+silly versions     '3.1.12' ] ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl1.0.0i-fips-v83.6.6.25-linux-ia32-3.4.7-1.fc16.i686',
+verbose bin dist   { shasum: '4b3fd0889a68d9805f47ef4b3c6950e88455dc29',
+verbose bin dist     tarball: 'http://registry.npmjs.org/glob/-/glob-3.1.12.tgz' } ]
+verbose caching /root/.npm/glob/3.1.12/package/package.json
+verbose loadDefaults glob@3.1.12
+verbose caching /root/.npm/fstream/0.1.18/package/package.json
+verbose loadDefaults fstream@0.1.18
+http 304 https://registry.npmjs.org/graceful-fs
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"DTZC83H4AURJ3NGT0Q9TISCL6"',
+silly get cb     date: 'Fri, 17 Aug 2012 05:32:04 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag graceful-fs from cache
+http 304 https://registry.npmjs.org/nopt
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"7N4HC247419MJK8G4S6FCFCUR"',
+silly get cb     date: 'Fri, 17 Aug 2012 05:32:04 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag nopt from cache
+http 304 https://registry.npmjs.org/mkdirp
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"2X1HH230N5KQWY7K1TF1AQN4Q"',
+silly get cb     date: 'Fri, 17 Aug 2012 05:32:04 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag mkdirp from cache
+silly name, range, hasData 2 [ 'graceful-fs', '>=1.0.0- <2.0.0-', true ]
+silly versions [ 'graceful-fs',
+silly versions   [ '1.0.2',
+silly versions     '1.1.0',
+silly versions     '1.1.1',
+silly versions     '1.1.2',
+silly versions     '1.1.3',
+silly versions     '1.1.4',
+silly versions     '1.1.5',
+silly versions     '1.1.6',
+silly versions     '1.1.7',
+silly versions     '1.1.8',
+silly versions     '1.1.9',
+silly versions     '1.1.10' ] ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl1.0.0i-fips-v83.6.6.25-linux-ia32-3.4.7-1.fc16.i686',
+verbose bin dist   { shasum: '388a63917e823bc695afd57c76d7f3ee3db54ad3',
+verbose bin dist     tarball: 'http://registry.npmjs.org/graceful-fs/-/graceful-fs-1.1.10.tgz' } ]
+silly name, range, hasData 2 [ 'nopt', '>=2.0.0- <3.0.0-', true ]
+silly versions [ 'nopt',
+silly versions   [ '1.0.0',
+silly versions     '1.0.1',
+silly versions     '1.0.2',
+silly versions     '1.0.3',
+silly versions     '1.0.4',
+silly versions     '1.0.5',
+silly versions     '1.0.6',
+silly versions     '1.0.7',
+silly versions     '1.0.8',
+silly versions     '1.0.9',
+silly versions     '1.0.10',
+silly versions     '2.0.0' ] ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl1.0.0i-fips-v83.6.6.25-linux-ia32-3.4.7-1.fc16.i686',
+verbose bin dist   { shasum: 'ca7416f20a5e3f9c3b86180f96295fa3d0b52e0d',
+verbose bin dist     tarball: 'http://registry.npmjs.org/nopt/-/nopt-2.0.0.tgz' } ]
+silly name, range, hasData 2 [ 'mkdirp', '>=0.3.0- <0.4.0-', true ]
+silly versions [ 'mkdirp',
+silly versions   [ '0.0.1',
+silly versions     '0.0.2',
+silly versions     '0.0.3',
+silly versions     '0.0.4',
+silly versions     '0.0.5',
+silly versions     '0.0.6',
+silly versions     '0.0.7',
+silly versions     '0.1.0',
+silly versions     '0.2.0',
+silly versions     '0.2.1',
+silly versions     '0.2.2',
+silly versions     '0.3.0',
+silly versions     '0.3.1',
+silly versions     '0.3.2',
+silly versions     '0.3.3' ] ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl1.0.0i-fips-v83.6.6.25-linux-ia32-3.4.7-1.fc16.i686',
+verbose bin dist   { shasum: '595e251c1370c3a68bab2136d0e348b8105adf13',
+verbose bin dist     tarball: 'http://registry.npmjs.org/mkdirp/-/mkdirp-0.3.3.tgz' } ]
+verbose caching /root/.npm/mkdirp/0.3.3/package/package.json
+verbose loadDefaults mkdirp@0.3.3
+verbose caching /root/.npm/nopt/2.0.0/package/package.json
+verbose loadDefaults nopt@2.0.0
+verbose caching /root/.npm/graceful-fs/1.1.10/package/package.json
+verbose loadDefaults graceful-fs@1.1.10
+http 304 https://registry.npmjs.org/npmlog
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"7S983RX184XVAEDG6U6EVTV1E"',
+silly get cb     date: 'Fri, 17 Aug 2012 05:32:04 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag npmlog from cache
+http 304 https://registry.npmjs.org/osenv
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"3T2S5H09VGBJ7IZNGX5HHTQ6N"',
+silly get cb     date: 'Fri, 17 Aug 2012 05:32:04 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag osenv from cache
+silly name, range, hasData 2 [ 'npmlog', '>=0.0.0- <1.0.0-', true ]
+silly versions [ 'npmlog', [ '0.0.1', '0.0.2' ] ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl1.0.0i-fips-v83.6.6.25-linux-ia32-3.4.7-1.fc16.i686',
+verbose bin dist   { shasum: 'f0cf4b2c519950c00e91ba8e2868b62bf86254f6',
+verbose bin dist     tarball: 'http://registry.npmjs.org/npmlog/-/npmlog-0.0.2.tgz' } ]
+silly name, range, hasData 2 [ 'osenv', '>=0.0.0- <1.0.0-', true ]
+silly versions [ 'osenv', [ '0.0.1', '0.0.2', '0.0.3' ] ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl1.0.0i-fips-v83.6.6.25-linux-ia32-3.4.7-1.fc16.i686',
+verbose bin dist   { shasum: 'cd6ad8ddb290915ad9e22765576025d411f29cb6',
+verbose bin dist     tarball: 'http://registry.npmjs.org/osenv/-/osenv-0.0.3.tgz' } ]
+verbose caching /root/.npm/npmlog/0.0.2/package/package.json
+verbose loadDefaults npmlog@0.0.2
+verbose caching /root/.npm/osenv/0.0.3/package/package.json
+verbose loadDefaults osenv@0.0.3
+http 304 https://registry.npmjs.org/tar
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"BEN0JVSMTRFJL1L9NFMZ6VSR"',
+silly get cb     date: 'Fri, 17 Aug 2012 05:32:04 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag tar from cache
+http 304 https://registry.npmjs.org/semver
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"E8JYOZJ5TVWTVEQC6NXQDZ9VM"',
+silly get cb     date: 'Fri, 17 Aug 2012 05:32:04 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag semver from cache
+silly name, range, hasData 2 [ 'tar', '>=0.1.12- <0.2.0-', true ]
+silly versions [ 'tar',
+silly versions   [ '0.0.1',
+silly versions     '0.1.0',
+silly versions     '0.1.2',
+silly versions     '0.1.3',
+silly versions     '0.1.4',
+silly versions     '0.1.5',
+silly versions     '0.1.6',
+silly versions     '0.1.7',
+silly versions     '0.1.8',
+silly versions     '0.1.9',
+silly versions     '0.1.10',
+silly versions     '0.1.11',
+silly versions     '0.1.12',
+silly versions     '0.1.13' ] ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl1.0.0i-fips-v83.6.6.25-linux-ia32-3.4.7-1.fc16.i686',
+verbose bin dist   { shasum: '5e467fcfb4b911ca8881e36eb5c1eb4ab06d9ae5',
+verbose bin dist     tarball: 'http://registry.npmjs.org/tar/-/tar-0.1.13.tgz' } ]
+silly name, range, hasData 2 [ 'semver', '>=1.0.0- <2.0.0-', true ]
+silly versions [ 'semver',
+silly versions   [ '1.0.0',
+silly versions     '1.0.1',
+silly versions     '1.0.2',
+silly versions     '1.0.3',
+silly versions     '1.0.4',
+silly versions     '1.0.5',
+silly versions     '1.0.6',
+silly versions     '1.0.7',
+silly versions     '1.0.8',
+silly versions     '1.0.9',
+silly versions     '1.0.10',
+silly versions     '1.0.11',
+silly versions     '1.0.12',
+silly versions     '1.0.13',
+silly versions     '1.0.14' ] ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl1.0.0i-fips-v83.6.6.25-linux-ia32-3.4.7-1.fc16.i686',
+verbose bin dist   { shasum: 'cac5e2d55a6fbf958cb220ae844045071c78f676',
+verbose bin dist     tarball: 'http://registry.npmjs.org/semver/-/semver-1.0.14.tgz' } ]
+http 304 https://registry.npmjs.org/minimatch
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"4LBBTRTU7XDX5POL65FCU08HN"',
+silly get cb     date: 'Fri, 17 Aug 2012 05:32:04 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag minimatch from cache
+silly name, range, hasData 2 [ 'minimatch', '>=0.2.0- <0.3.0-', true ]
+silly versions [ 'minimatch',
+silly versions   [ '0.0.1',
+silly versions     '0.0.2',
+silly versions     '0.0.4',
+silly versions     '0.0.5',
+silly versions     '0.1.1',
+silly versions     '0.1.2',
+silly versions     '0.1.3',
+silly versions     '0.1.4',
+silly versions     '0.1.5',
+silly versions     '0.2.0',
+silly versions     '0.2.2',
+silly versions     '0.2.3',
+silly versions     '0.2.4',
+silly versions     '0.2.5',
+silly versions     '0.2.6' ] ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl1.0.0i-fips-v83.6.6.25-linux-ia32-3.4.7-1.fc16.i686',
+verbose bin dist   { shasum: 'afc731fd9874c4c47496bc27938e5014134eaa57',
+verbose bin dist     tarball: 'http://registry.npmjs.org/minimatch/-/minimatch-0.2.6.tgz' } ]
+verbose caching /root/.npm/tar/0.1.13/package/package.json
+verbose loadDefaults tar@0.1.13
+verbose caching /root/.npm/semver/1.0.14/package/package.json
+verbose loadDefaults semver@1.0.14
+verbose caching /root/.npm/minimatch/0.2.6/package/package.json
+verbose loadDefaults minimatch@0.2.6
+http 304 https://registry.npmjs.org/which
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"2XZSECGJ134V0ZY8ZYTFC2T2Y"',
+silly get cb     date: 'Fri, 17 Aug 2012 05:32:04 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag which from cache
+http 304 https://registry.npmjs.org/rimraf
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"D2UXC2R80Y11P9NAXJ2EPSU73"',
+silly get cb     date: 'Fri, 17 Aug 2012 05:32:04 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag rimraf from cache
+silly name, range, hasData 2 [ 'which', '>=1.0.0- <2.0.0-', true ]
+silly versions [ 'which', [ '1.0.0', '1.0.1', '1.0.2', '1.0.3', '1.0.5' ] ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl1.0.0i-fips-v83.6.6.25-linux-ia32-3.4.7-1.fc16.i686',
+verbose bin dist   { shasum: '5630d6819dda692f1464462e7956cb42c0842739',
+verbose bin dist     tarball: 'http://registry.npmjs.org/which/-/which-1.0.5.tgz' } ]
+silly name, range, hasData 2 [ 'rimraf', '>=2.0.0- <3.0.0-', true ]
+silly versions [ 'rimraf',
+silly versions   [ '1.0.0',
+silly versions     '1.0.1',
+silly versions     '1.0.2',
+silly versions     '1.0.4',
+silly versions     '1.0.5',
+silly versions     '1.0.6',
+silly versions     '1.0.7',
+silly versions     '1.0.8',
+silly versions     '1.0.9',
+silly versions     '2.0.0',
+silly versions     '2.0.1',
+silly versions     '2.0.2' ] ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl1.0.0i-fips-v83.6.6.25-linux-ia32-3.4.7-1.fc16.i686',
+verbose bin dist   { shasum: '2a860f3f74bd7975002f73cb0b003b218ec351e4',
+verbose bin dist     tarball: 'http://registry.npmjs.org/rimraf/-/rimraf-2.0.2.tgz' } ]
+verbose caching /root/.npm/which/1.0.5/package/package.json
+verbose loadDefaults which@1.0.5
+verbose caching /root/.npm/rimraf/2.0.2/package/package.json
+verbose loadDefaults rimraf@2.0.2
+http 304 https://registry.npmjs.org/request
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"6OH1SHMFVPMVDXVK6KISTORWC"',
+silly get cb     date: 'Fri, 17 Aug 2012 05:32:05 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag request from cache
+silly name, range, hasData 2 [ 'request', '>=2.9.0- <2.10.0-', true ]
+silly versions [ 'request',
+silly versions   [ '0.10.0',
+silly versions     '0.8.3',
+silly versions     '0.9.0',
+silly versions     '0.9.1',
+silly versions     '0.9.5',
+silly versions     '1.0.0',
+silly versions     '1.1.0',
+silly versions     '1.1.1',
+silly versions     '1.2.0',
+silly versions     '1.9.0',
+silly versions     '1.9.1',
+silly versions     '1.9.2',
+silly versions     '1.9.3',
+silly versions     '1.9.5',
+silly versions     '1.9.7',
+silly versions     '1.9.8',
+silly versions     '1.9.9',
+silly versions     '2.0.0',
+silly versions     '2.0.1',
+silly versions     '2.0.2',
+silly versions     '2.0.3',
+silly versions     '2.0.4',
+silly versions     '2.0.5',
+silly versions     '2.1.0',
+silly versions     '2.1.1',
+silly versions     '2.2.0',
+silly versions     '2.2.5',
+silly versions     '2.2.6',
+silly versions     '2.2.9',
+silly versions     '2.9.0',
+silly versions     '2.9.1',
+silly versions     '2.9.2',
+silly versions     '2.9.3',
+silly versions     '2.9.100',
+silly versions     '2.9.150',
+silly versions     '2.9.151',
+silly versions     '2.9.152',
+silly versions     '2.9.153',
+silly versions     '2.9.200',
+silly versions     '2.9.201',
+silly versions     '2.9.202',
+silly versions     '2.9.203',
+silly versions     '2.10.0' ] ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl1.0.0i-fips-v83.6.6.25-linux-ia32-3.4.7-1.fc16.i686',
+verbose bin dist   { shasum: '6c1711a5407fb94a114219563e44145bcbf4723a',
+verbose bin dist     tarball: 'http://registry.npmjs.org/request/-/request-2.9.203.tgz' } ]
+verbose caching /root/.npm/request/2.9.203/package/package.json
+verbose loadDefaults request@2.9.203
+silly resolved [ { author: 
+silly resolved      { name: 'Isaac Z. Schlueter',
+silly resolved        email: 'i@izs.me',
+silly resolved        url: 'http://blog.izs.me/' },
+silly resolved     name: 'glob',
+silly resolved     description: 'a little globber',
+silly resolved     version: '3.1.12',
+silly resolved     repository: { type: 'git', url: 'git://github.com/isaacs/node-glob.git' },
+silly resolved     main: 'glob.js',
+silly resolved     engines: { node: '*' },
+silly resolved     dependencies: { minimatch: '0.2', 'graceful-fs': '~1.1.2', inherits: '1' },
+silly resolved     devDependencies: { tap: '~0.2.3', mkdirp: '0', rimraf: '1' },
+silly resolved     scripts: { test: 'tap test/*.js' },
+silly resolved     license: 'BSD',
+silly resolved     _id: 'glob@3.1.12',
+silly resolved     optionalDependencies: {},
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.19',
+silly resolved     _nodeVersion: 'v0.6.18',
+silly resolved     _defaultsLoaded: true,
+silly resolved     _from: 'glob@3' },
+silly resolved   { author: 
+silly resolved      { name: 'Isaac Z. Schlueter',
+silly resolved        email: 'i@izs.me',
+silly resolved        url: 'http://blog.izs.me/' },
+silly resolved     name: 'fstream',
+silly resolved     description: 'Advanced file system stream things',
+silly resolved     version: '0.1.18',
+silly resolved     repository: { type: 'git', url: 'git://github.com/isaacs/fstream.git' },
+silly resolved     main: 'fstream.js',
+silly resolved     engines: { node: '>=0.6' },
+silly resolved     dependencies: 
+silly resolved      { rimraf: '2',
+silly resolved        mkdirp: '0.3',
+silly resolved        'graceful-fs': '~1.1.2',
+silly resolved        inherits: '~1.0.0' },
+silly resolved     devDependencies: { tap: '' },
+silly resolved     scripts: { test: 'tap examples/*.js' },
+silly resolved     license: 'BSD',
+silly resolved     _id: 'fstream@0.1.18',
+silly resolved     optionalDependencies: {},
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.19',
+silly resolved     _nodeVersion: 'v0.6.18',
+silly resolved     _defaultsLoaded: true,
+silly resolved     _from: 'fstream@~0.1.13' },
+silly resolved   { name: 'mkdirp',
+silly resolved     description: 'Recursively mkdir, like `mkdir -p`',
+silly resolved     version: '0.3.3',
+silly resolved     author: 
+silly resolved      { name: 'James Halliday',
+silly resolved        email: 'mail@substack.net',
+silly resolved        url: 'http://substack.net' },
+silly resolved     main: './index',
+silly resolved     keywords: [ 'mkdir', 'directory' ],
+silly resolved     repository: 
+silly resolved      { type: 'git',
+silly resolved        url: 'git://github.com/substack/node-mkdirp.git' },
+silly resolved     scripts: { test: 'tap test/*.js' },
+silly resolved     devDependencies: { tap: '~0.2.4' },
+silly resolved     license: 'MIT/X11',
+silly resolved     engines: { node: '*' },
+silly resolved     _id: 'mkdirp@0.3.3',
+silly resolved     dependencies: {},
+silly resolved     optionalDependencies: {},
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.19',
+silly resolved     _nodeVersion: 'v0.6.18',
+silly resolved     _defaultsLoaded: true,
+silly resolved     _from: 'mkdirp@0.3' },
+silly resolved   { name: 'nopt',
+silly resolved     version: '2.0.0',
+silly resolved     description: 'Option parsing for Node, supporting types, shorthands, etc. Used by npm.',
+silly resolved     author: 
+silly resolved      { name: 'Isaac Z. Schlueter',
+silly resolved        email: 'i@izs.me',
+silly resolved        url: 'http://blog.izs.me/' },
+silly resolved     main: 'lib/nopt.js',
+silly resolved     scripts: { test: 'node lib/nopt.js' },
+silly resolved     repository: { type: 'git', url: 'git://github.com/isaacs/nopt.git' },
+silly resolved     bin: { nopt: './bin/nopt.js' },
+silly resolved     license: 
+silly resolved      { type: 'MIT',
+silly resolved        url: 'https://github.com/isaacs/nopt/raw/master/LICENSE' },
+silly resolved     dependencies: { abbrev: '1' },
+silly resolved     _id: 'nopt@2.0.0',
+silly resolved     devDependencies: {},
+silly resolved     optionalDependencies: {},
+silly resolved     engines: { node: '*' },
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.19',
+silly resolved     _nodeVersion: 'v0.6.18',
+silly resolved     _defaultsLoaded: true,
+silly resolved     _from: 'nopt@2' },
+silly resolved   { author: 
+silly resolved      { name: 'Isaac Z. Schlueter',
+silly resolved        email: 'i@izs.me',
+silly resolved        url: 'http://blog.izs.me' },
+silly resolved     name: 'graceful-fs',
+silly resolved     description: 'fs monkey-patching to avoid EMFILE and other problems',
+silly resolved     version: '1.1.10',
+silly resolved     repository: 
+silly resolved      { type: 'git',
+silly resolved        url: 'git://github.com/isaacs/node-graceful-fs.git' },
+silly resolved     main: 'graceful-fs.js',
+silly resolved     engines: { node: '>=0.4.0' },
+silly resolved     devDependencies: {},
+silly resolved     directories: { test: 'test' },
+silly resolved     dependencies: {},
+silly resolved     scripts: { test: 'tap test/*.js' },
+silly resolved     keywords: [ 'fs', 'EMFILE', 'error', 'handling', 'monkeypatch' ],
+silly resolved     license: 'BSD',
+silly resolved     _id: 'graceful-fs@1.1.10',
+silly resolved     optionalDependencies: {},
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.19',
+silly resolved     _nodeVersion: 'v0.6.18',
+silly resolved     _defaultsLoaded: true,
+silly resolved     _from: 'graceful-fs@1' },
+silly resolved   { author: 
+silly resolved      { name: 'Isaac Z. Schlueter',
+silly resolved        email: 'i@izs.me',
+silly resolved        url: 'http://blog.izs.me/' },
+silly resolved     name: 'npmlog',
+silly resolved     description: 'logger for npm',
+silly resolved     version: '0.0.2',
+silly resolved     repository: { type: 'git', url: 'git://github.com/isaacs/npmlog.git' },
+silly resolved     main: 'log.js',
+silly resolved     scripts: { test: 'tap test/*.js' },
+silly resolved     dependencies: { ansi: '~0.1.2' },
+silly resolved     devDependencies: { tap: '' },
+silly resolved     license: 'BSD',
+silly resolved     _id: 'npmlog@0.0.2',
+silly resolved     optionalDependencies: {},
+silly resolved     engines: { node: '*' },
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.19',
+silly resolved     _nodeVersion: 'v0.6.18',
+silly resolved     _defaultsLoaded: true,
+silly resolved     _from: 'npmlog@0' },
+silly resolved   { name: 'osenv',
+silly resolved     version: '0.0.3',
+silly resolved     main: 'osenv.js',
+silly resolved     directories: { test: 'test' },
+silly resolved     dependencies: {},
+silly resolved     devDependencies: { tap: '~0.2.5' },
+silly resolved     scripts: { test: 'tap test/*.js' },
+silly resolved     repository: { type: 'git', url: 'git://github.com/isaacs/osenv.git' },
+silly resolved     keywords: 
+silly resolved      [ 'environment',
+silly resolved        'variable',
+silly resolved        'home',
+silly resolved        'tmpdir',
+silly resolved        'path',
+silly resolved        'prompt',
+silly resolved        'ps1' ],
+silly resolved     author: 
+silly resolved      { name: 'Isaac Z. Schlueter',
+silly resolved        email: 'i@izs.me',
+silly resolved        url: 'http://blog.izs.me/' },
+silly resolved     license: 'BSD',
+silly resolved     description: 'Look up environment settings specific to different operating systems',
+silly resolved     _id: 'osenv@0.0.3',
+silly resolved     optionalDependencies: {},
+silly resolved     engines: { node: '*' },
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.19',
+silly resolved     _nodeVersion: 'v0.6.18',
+silly resolved     _defaultsLoaded: true,
+silly resolved     _from: 'osenv@0' },
+silly resolved   { author: 
+silly resolved      { name: 'Isaac Z. Schlueter',
+silly resolved        email: 'i@izs.me',
+silly resolved        url: 'http://blog.izs.me/' },
+silly resolved     name: 'tar',
+silly resolved     description: 'tar for node',
+silly resolved     version: '0.1.13',
+silly resolved     repository: { type: 'git', url: 'git://github.com/isaacs/node-tar.git' },
+silly resolved     main: 'tar.js',
+silly resolved     scripts: { test: 'tap test/*.js' },
+silly resolved     engines: { node: '~0.5.9 || 0.6 || 0.7 || 0.8' },
+silly resolved     dependencies: { inherits: '1.x', 'block-stream': '*', fstream: '~0.1.8' },
+silly resolved     devDependencies: { tap: '0.x', rimraf: '1.x' },
+silly resolved     _id: 'tar@0.1.13',
+silly resolved     optionalDependencies: {},
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.19',
+silly resolved     _nodeVersion: 'v0.6.18',
+silly resolved     _defaultsLoaded: true,
+silly resolved     _from: 'tar@~0.1.12' },
+silly resolved   { name: 'semver',
+silly resolved     version: '1.0.14',
+silly resolved     description: 'The semantic version parser used by npm.',
+silly resolved     main: 'semver.js',
+silly resolved     scripts: { test: 'tap test.js' },
+silly resolved     devDependencies: { tap: '0.x >=0.0.4' },
+silly resolved     license: 
+silly resolved      { type: 'MIT',
+silly resolved        url: 'https://github.com/isaacs/semver/raw/master/LICENSE' },
+silly resolved     repository: { type: 'git', url: 'git://github.com/isaacs/node-semver.git' },
+silly resolved     bin: { semver: './bin/semver' },
+silly resolved     _id: 'semver@1.0.14',
+silly resolved     dependencies: {},
+silly resolved     optionalDependencies: {},
+silly resolved     engines: { node: '*' },
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.19',
+silly resolved     _nodeVersion: 'v0.6.18',
+silly resolved     _defaultsLoaded: true,
+silly resolved     _from: 'semver@1' },
+silly resolved   { author: 
+silly resolved      { name: 'Isaac Z. Schlueter',
+silly resolved        email: 'i@izs.me',
+silly resolved        url: 'http://blog.izs.me' },
+silly resolved     name: 'minimatch',
+silly resolved     description: 'a glob matcher in javascript',
+silly resolved     version: '0.2.6',
+silly resolved     repository: { type: 'git', url: 'git://github.com/isaacs/minimatch.git' },
+silly resolved     main: 'minimatch.js',
+silly resolved     scripts: { test: 'tap test' },
+silly resolved     engines: { node: '*' },
+silly resolved     dependencies: { 'lru-cache': '~2.0.0' },
+silly resolved     devDependencies: { tap: '' },
+silly resolved     license: 
+silly resolved      { type: 'MIT',
+silly resolved        url: 'http://github.com/isaacs/minimatch/raw/master/LICENSE' },
+silly resolved     _id: 'minimatch@0.2.6',
+silly resolved     optionalDependencies: {},
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.19',
+silly resolved     _nodeVersion: 'v0.6.18',
+silly resolved     _defaultsLoaded: true,
+silly resolved     _from: 'minimatch@0.2' },
+silly resolved   { author: 
+silly resolved      { name: 'Isaac Z. Schlueter',
+silly resolved        email: 'i@izs.me',
+silly resolved        url: 'http://blog.izs.me' },
+silly resolved     name: 'which',
+silly resolved     description: 'Like which(1) unix command. Find the first instance of an executable in the PATH.',
+silly resolved     version: '1.0.5',
+silly resolved     repository: { type: 'git', url: 'git://github.com/isaacs/node-which.git' },
+silly resolved     main: 'which.js',
+silly resolved     bin: { which: './bin/which' },
+silly resolved     engines: { node: '*' },
+silly resolved     dependencies: {},
+silly resolved     devDependencies: {},
+silly resolved     _id: 'which@1.0.5',
+silly resolved     optionalDependencies: {},
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.19',
+silly resolved     _nodeVersion: 'v0.6.18',
+silly resolved     _defaultsLoaded: true,
+silly resolved     _from: 'which@1',
+silly resolved     scripts: {} },
+silly resolved   { name: 'rimraf',
+silly resolved     version: '2.0.2',
+silly resolved     main: 'rimraf.js',
+silly resolved     description: 'A deep deletion module for node (like `rm -rf`)',
+silly resolved     author: 
+silly resolved      { name: 'Isaac Z. Schlueter',
+silly resolved        email: 'i@izs.me',
+silly resolved        url: 'http://blog.izs.me/' },
+silly resolved     license: 
+silly resolved      { type: 'MIT',
+silly resolved        url: 'https://github.com/isaacs/rimraf/raw/master/LICENSE' },
+silly resolved     optionalDependencies: { 'graceful-fs': '~1.1' },
+silly resolved     repository: { type: 'git', url: 'git://github.com/isaacs/rimraf.git' },
+silly resolved     scripts: { test: 'cd test && bash run.sh' },
+silly resolved     _id: 'rimraf@2.0.2',
+silly resolved     contributors: 
+silly resolved      [ { name: 'Isaac Z. Schlueter',
+silly resolved          email: 'i@izs.me',
+silly resolved          url: 'http://blog.izs.me' },
+silly resolved        { name: 'Wayne Larsen',
+silly resolved          email: 'wayne@larsen.st',
+silly resolved          url: 'http://github.com/wvl' },
+silly resolved        { name: 'ritch', email: 'skawful@gmail.com' },
+silly resolved        { name: 'Marcel Laverdet' },
+silly resolved        { name: 'Yosef Dinerstein', email: 'yosefd@microsoft.com' } ],
+silly resolved     dependencies: { 'graceful-fs': '~1.1' },
+silly resolved     devDependencies: {},
+silly resolved     engines: { node: '*' },
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.19',
+silly resolved     _nodeVersion: 'v0.6.18',
+silly resolved     _defaultsLoaded: true,
+silly resolved     _from: 'rimraf@2' },
+silly resolved   { name: 'request',
+silly resolved     description: 'Simplified HTTP request client.',
+silly resolved     tags: [ 'http', 'simple', 'util', 'utility' ],
+silly resolved     version: '2.9.203',
+silly resolved     author: { name: 'Mikeal Rogers', email: 'mikeal.rogers@gmail.com' },
+silly resolved     repository: { type: 'git', url: 'git://github.com/mikeal/request.git' },
+silly resolved     bugs: { url: 'http://github.com/mikeal/request/issues' },
+silly resolved     engines: [ 'node >= 0.3.6', node: ' >= 0.3.6' ],
+silly resolved     main: './main',
+silly resolved     scripts: { test: 'node tests/run.js' },
+silly resolved     _id: 'request@2.9.203',
+silly resolved     dependencies: {},
+silly resolved     devDependencies: {},
+silly resolved     optionalDependencies: {},
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.19',
+silly resolved     _nodeVersion: 'v0.6.18',
+silly resolved     _defaultsLoaded: true,
+silly resolved     _from: 'request@2.9' } ]
+info into /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp glob@3.1.12
+info into /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp fstream@0.1.18
+info into /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp mkdirp@0.3.3
+info into /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp nopt@2.0.0
+info into /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp graceful-fs@1.1.10
+info into /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp npmlog@0.0.2
+info into /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp osenv@0.0.3
+info into /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp tar@0.1.13
+info into /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp semver@1.0.14
+info into /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp minimatch@0.2.6
+info into /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp which@1.0.5
+info into /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp rimraf@2.0.2
+info into /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp request@2.9.203
+info installOne glob@3.1.12
+info installOne fstream@0.1.18
+info installOne mkdirp@0.3.3
+info installOne nopt@2.0.0
+info installOne graceful-fs@1.1.10
+info installOne npmlog@0.0.2
+info installOne osenv@0.0.3
+info installOne tar@0.1.13
+info installOne semver@1.0.14
+info installOne minimatch@0.2.6
+info installOne which@1.0.5
+info installOne rimraf@2.0.2
+info installOne request@2.9.203
+verbose from cache /root/.npm/glob/3.1.12/package/package.json
+info unbuild /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/glob
+verbose from cache /root/.npm/fstream/0.1.18/package/package.json
+info unbuild /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/fstream
+verbose from cache /root/.npm/mkdirp/0.3.3/package/package.json
+info unbuild /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/mkdirp
+verbose from cache /root/.npm/nopt/2.0.0/package/package.json
+info unbuild /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/nopt
+verbose from cache /root/.npm/graceful-fs/1.1.10/package/package.json
+info unbuild /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/graceful-fs
+verbose from cache /root/.npm/npmlog/0.0.2/package/package.json
+info unbuild /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/npmlog
+verbose from cache /root/.npm/osenv/0.0.3/package/package.json
+info unbuild /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/osenv
+verbose from cache /root/.npm/tar/0.1.13/package/package.json
+info unbuild /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/tar
+verbose from cache /root/.npm/semver/1.0.14/package/package.json
+info unbuild /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/semver
+verbose from cache /root/.npm/minimatch/0.2.6/package/package.json
+info unbuild /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/minimatch
+verbose from cache /root/.npm/which/1.0.5/package/package.json
+info unbuild /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/which
+verbose from cache /root/.npm/rimraf/2.0.2/package/package.json
+info unbuild /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/rimraf
+verbose from cache /root/.npm/request/2.9.203/package/package.json
+info unbuild /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/request
+verbose unpack /root/.npm/glob/3.1.12/package.tgz
+verbose unpack /root/.npm/fstream/0.1.18/package.tgz
+verbose unpack /root/.npm/mkdirp/0.3.3/package.tgz
+verbose unpack /root/.npm/nopt/2.0.0/package.tgz
+verbose unpack /root/.npm/graceful-fs/1.1.10/package.tgz
+verbose unpack /root/.npm/npmlog/0.0.2/package.tgz
+verbose unpack /root/.npm/osenv/0.0.3/package.tgz
+verbose unpack /root/.npm/tar/0.1.13/package.tgz
+verbose unpack /root/.npm/semver/1.0.14/package.tgz
+verbose unpack /root/.npm/minimatch/0.2.6/package.tgz
+verbose unpack /root/.npm/which/1.0.5/package.tgz
+verbose unpack /root/.npm/rimraf/2.0.2/package.tgz
+verbose unpack /root/.npm/request/2.9.203/package.tgz
+silly gunzTarPerm modes [ '755', '644' ]
+silly gunzTarPerm modes [ '755', '644' ]
+silly gunzTarPerm modes [ '755', '644' ]
+silly gunzTarPerm modes [ '755', '644' ]
+silly gunzTarPerm modes [ '755', '644' ]
+silly gunzTarPerm modes [ '755', '644' ]
+silly gunzTarPerm modes [ '755', '644' ]
+silly gunzTarPerm modes [ '755', '644' ]
+silly gunzTarPerm modes [ '755', '644' ]
+silly gunzTarPerm modes [ '755', '644' ]
+silly gunzTarPerm modes [ '755', '644' ]
+silly gunzTarPerm modes [ '755', '644' ]
+silly gunzTarPerm modes [ '755', '644' ]
+silly extracting entry package.json
+silly extracting entry package.json
+silly extracting entry package.json
+silly extracting entry package.json
+silly extracting entry package.json
+silly extracting entry package.json
+silly extracting entry package.json
+silly extracting entry package.json
+silly extracting entry package.json
+silly extracting entry package.json
+silly extracting entry package.json
+silly extracting entry package.json
+silly extracting entry package.json
+silly extracting entry .npmignore
+silly extracting entry LICENSE
+silly extracting entry .npmignore
+silly extracting entry README.md
+silly extracting entry .npmignore
+silly extracting entry README.md
+silly extracting entry .npmignore
+silly extracting entry README.md
+silly extracting entry README.md
+silly extracting entry LICENSE
+silly extracting entry README.md
+silly extracting entry LICENSE
+silly extracting entry .npmignore
+silly extracting entry README.md
+silly extracting entry README.md
+silly extracting entry LICENSE
+silly extracting entry README.md
+silly extracting entry LICENSE
+silly extracting entry README.md
+silly extracting entry LICENSE
+silly extracting entry .npmignore
+silly extracting entry README.md
+silly extracting entry README.md
+silly extracting entry LICENSE
+silly extracting entry README.md
+silly extracting entry LICENSE
+silly extracting entry index.js
+silly extracting entry examples/pow.js
+silly extracting entry log.js
+silly extracting entry example.js
+silly extracting entry LICENSE
+silly extracting entry glob.js
+silly extracting entry semver.js
+silly extracting entry test.js
+silly extracting entry which.js
+silly extracting entry bin/which
+silly extracting entry LICENSE
+silly extracting entry graceful-fs.js
+silly extracting entry LICENCE
+silly extracting entry fstream.js
+silly extracting entry rimraf.js
+silly extracting entry AUTHORS
+silly extracting entry LICENSE
+silly extracting entry examples/my-program.js
+silly extracting entry aws2.js
+silly extracting entry oauth.js
+silly extracting entry tar.js
+silly extracting entry examples/extracter.js
+silly extracting entry test/basic.js
+silly extracting entry bin/semver
+silly extracting entry osenv.js
+silly extracting entry test/windows.js
+silly extracting entry minimatch.js
+silly extracting entry .travis.yml
+silly extracting entry mimetypes.js
+silly extracting entry test/unix.js
+silly extracting entry test/caching.js
+silly extracting entry main.js
+silly extracting entry test/defaults.js
+silly extracting entry uuid.js
+silly extracting entry examples/pow.js.orig
+silly extracting entry examples/pow.js.rej
+silly extracting entry test/brace-expand.js
+silly extracting entry tunnel.js
+silly extracting entry examples/usr-local.js
+silly extracting entry examples/g.js
+silly extracting entry lib/nopt.js
+silly extracting entry bin/nopt.js
+silly extracting entry test/basic.js
+silly extracting entry forever.js
+silly extracting entry test/open.js
+silly extracting entry examples/filter-pipe.js
+silly extracting entry examples/pipe.js
+silly extracting entry .travis.yml
+silly extracting entry aws.js
+silly extracting entry examples/reader.js
+silly extracting entry .travis.yml
+silly extracting entry .travis.yml
+silly extracting entry test/test-async.js
+silly extracting entry test/test-sync.js
+silly extracting entry vendor/cookie/jar.js
+silly extracting entry examples/symlink-write.js
+silly extracting entry test/root.js
+silly extracting entry vendor/cookie/index.js
+silly extracting entry lib/buffer-entry.js
+silly extracting entry examples/reader.js
+silly extracting entry test/00-setup.js
+silly extracting entry test/test-fiber.js
+silly extracting entry tests/test-s3.js
+silly extracting entry .travis.yml
+silly extracting entry test/pause-resume.js
+silly extracting entry tests/server.js
+silly extracting entry test/root-nomount.js
+silly extracting entry tests/test-httpModule.js
+silly extracting entry test/cwd-test.js
+silly extracting entry tests/test-timeout.js
+silly extracting entry test/bash-comparison.js
+silly extracting entry .gitignore.rej
+silly extracting entry test/umask.js
+silly extracting entry tests/test-qs.js
+silly extracting entry test/zz-cleanup.js
+silly extracting entry tests/test-defaults.js
+silly extracting entry test/chmod.js
+silly extracting entry tests/test-tunnel.js
+silly extracting entry lib/extract.js
+silly extracting entry lib/global-header-writer.js
+silly extracting entry test/mkdirp.js
+silly extracting entry test/setup.sh
+silly extracting entry test/run.sh
+silly extracting entry tests/test-redirect.js
+silly extracting entry lib/collect.js
+silly extracting entry lib/dir-reader.js
+silly extracting entry test/race.js
+silly extracting entry lib/pack.js
+silly extracting entry test/return.js
+silly extracting entry lib/extended-header-writer.js
+silly extracting entry lib/writer.js
+silly extracting entry lib/entry.js
+silly extracting entry lib/header.js
+silly extracting entry lib/parse.js
+silly extracting entry lib/extended-header.js
+silly extracting entry tests/test-body.js
+silly extracting entry tests/test-pipes.js
+silly extracting entry lib/entry-writer.js
+silly extracting entry test/perm.js
+silly extracting entry test/perm_sync.js
+silly extracting entry tests/run.js
+silly extracting entry lib/proxy-reader.js
+silly extracting entry lib/link-writer.js
+silly extracting entry tests/test-proxy.js
+silly extracting entry tests/test-errors.js
+silly extracting entry lib/file-reader.js
+silly extracting entry tests/test-cookiejar.js
+silly extracting entry tests/test-https.js
+silly extracting entry test/extract.js
+silly extracting entry test/pack.js
+silly extracting entry tests/test-toJSON.js
+silly extracting entry tests/test-params.js
+silly extracting entry tests/test-pool.js
+silly extracting entry test/sync.js
+silly extracting entry test/rel.js
+silly extracting entry tests/test-oauth.js
+silly extracting entry lib/file-writer.js
+silly extracting entry lib/get-type.js
+silly extracting entry tests/test-cookie.js
+silly extracting entry tests/test-headers.js
+silly extracting entry lib/proxy-writer.js
+silly extracting entry tests/test-https-strict.js
+silly extracting entry lib/dir-writer.js
+silly extracting entry tests/squid.conf
+verbose caching /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/which/package.json
+verbose loadDefaults which@1.0.5
+silly extracting entry lib/reader.js
+silly extracting entry tests/ssl/test.key
+silly extracting entry test/pack-no-proprietary.js
+silly extracting entry test/header.js
+silly extracting entry lib/socket-reader.js
+silly extracting entry tests/ssl/npm-ca.crt
+silly extracting entry lib/link-reader.js
+silly extracting entry test/clobber.js
+silly extracting entry test/root.js
+silly extracting entry tests/ssl/ca/server.js
+info preinstall which@1.0.5
+silly extracting entry lib/abstract.js
+verbose from cache /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/which/package.json
+verbose readDependencies: using package.json deps
+verbose from cache /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/which/package.json
+verbose readDependencies: using package.json deps
+silly resolved []
+verbose about to build /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/which
+info build /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/which
+verbose from cache /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/which/package.json
+verbose linkStuff [ true,
+verbose linkStuff   '/usr/lib/node_modules',
+verbose linkStuff   false,
+verbose linkStuff   '/usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules' ]
+info linkStuff which@1.0.5
+verbose linkBins which@1.0.5
+verbose bins linking [ { which: './bin/which' },
+verbose bins linking   '/usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/.bin',
+verbose bins linking   false ]
+verbose linkMans which@1.0.5
+verbose rebuildBundles which@1.0.5
+silly extracting entry test/parse.js
+silly extracting entry test/zz-cleanup.js
+silly extracting entry test/return_sync.js
+silly extracting entry test/umask_sync.js
+silly extracting entry tests/ssl/ca/ca.crl
+silly extracting entry tests/ssl/ca/server.cnf
+silly extracting entry tests/ssl/ca/server.key
+silly extracting entry tests/ssl/ca/ca.key
+info install which@1.0.5
+silly extracting entry tests/ssl/ca/ca.srl
+silly extracting entry tests/ssl/ca/server.crt
+info postinstall which@1.0.5
+verbose caching /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/graceful-fs/package.json
+verbose loadDefaults graceful-fs@1.1.10
+silly extracting entry tests/ssl/ca/server.csr
+silly extracting entry README.markdown
+silly extracting entry .gitignore.orig
+silly extracting entry tests/ssl/ca/ca.crt
+verbose caching /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/osenv/package.json
+verbose loadDefaults osenv@0.0.3
+silly extracting entry tests/ssl/ca/ca.cnf
+info preinstall graceful-fs@1.1.10
+silly extracting entry tests/ssl/ca/ca.csr
+silly extracting entry tests/ssl/test.crt
+verbose from cache /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/graceful-fs/package.json
+info preinstall osenv@0.0.3
+silly extracting entry tests/googledoodle.png
+verbose readDependencies: using package.json deps
+verbose from cache /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/graceful-fs/package.json
+verbose readDependencies: using package.json deps
+silly resolved []
+verbose about to build /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/graceful-fs
+info build /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/graceful-fs
+verbose from cache /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/graceful-fs/package.json
+verbose linkStuff [ true,
+verbose linkStuff   '/usr/lib/node_modules',
+verbose linkStuff   false,
+verbose linkStuff   '/usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules' ]
+info linkStuff graceful-fs@1.1.10
+verbose linkBins graceful-fs@1.1.10
+verbose linkMans graceful-fs@1.1.10
+verbose rebuildBundles graceful-fs@1.1.10
+verbose from cache /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/osenv/package.json
+info install graceful-fs@1.1.10
+verbose readDependencies: using package.json deps
+verbose from cache /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/osenv/package.json
+silly extracting entry test/00-setup-fixtures.js
+silly extracting entry test/fixtures.tgz
+verbose readDependencies: using package.json deps
+silly resolved []
+verbose about to build /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/osenv
+info build /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/osenv
+verbose from cache /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/osenv/package.json
+verbose linkStuff [ true,
+verbose linkStuff   '/usr/lib/node_modules',
+verbose linkStuff   false,
+verbose linkStuff   '/usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules' ]
+info linkStuff osenv@0.0.3
+verbose linkBins osenv@0.0.3
+verbose linkMans osenv@0.0.3
+verbose rebuildBundles osenv@0.0.3
+info postinstall graceful-fs@1.1.10
+info install osenv@0.0.3
+info postinstall osenv@0.0.3
+verbose caching /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/npmlog/package.json
+verbose loadDefaults npmlog@0.0.2
+info preinstall npmlog@0.0.2
+verbose from cache /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/npmlog/package.json
+verbose readDependencies: using package.json deps
+verbose from cache /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/npmlog/package.json
+verbose readDependencies: using package.json deps
+verbose cache add [ 'ansi@~0.1.2', null ]
+silly cache add: name, spec, args [ undefined, 'ansi@~0.1.2', [ 'ansi@~0.1.2', null ] ]
+verbose parsed url { pathname: 'ansi@~0.1.2',
+verbose parsed url   path: 'ansi@~0.1.2',
+verbose parsed url   href: 'ansi@~0.1.2' }
+silly cache add: name, spec, args [ 'ansi', '~0.1.2', [ 'ansi', '~0.1.2' ] ]
+verbose parsed url { pathname: '~0.1.2', path: '~0.1.2', href: '~0.1.2' }
+verbose addNamed [ 'ansi', '~0.1.2' ]
+verbose addNamed [ null, '>=0.1.2- <0.2.0-' ]
+silly name, range, hasData [ 'ansi', '>=0.1.2- <0.2.0-', false ]
+verbose caching /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/rimraf/package.json
+verbose loadDefaults rimraf@2.0.2
+verbose caching /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/semver/package.json
+verbose loadDefaults semver@1.0.14
+info preinstall rimraf@2.0.2
+verbose from cache /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/rimraf/package.json
+info preinstall semver@1.0.14
+verbose readDependencies: using package.json deps
+verbose from cache /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/rimraf/package.json
+verbose readDependencies: using package.json deps
+silly resolved []
+verbose about to build /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/rimraf
+info build /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/rimraf
+verbose from cache /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/rimraf/package.json
+verbose linkStuff [ true,
+verbose linkStuff   '/usr/lib/node_modules',
+verbose linkStuff   false,
+verbose linkStuff   '/usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules' ]
+info linkStuff rimraf@2.0.2
+verbose linkBins rimraf@2.0.2
+verbose linkMans rimraf@2.0.2
+verbose rebuildBundles rimraf@2.0.2
+verbose from cache /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/semver/package.json
+info install rimraf@2.0.2
+verbose readDependencies: using package.json deps
+verbose from cache /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/semver/package.json
+verbose readDependencies: using package.json deps
+silly resolved []
+verbose about to build /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/semver
+info build /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/semver
+verbose from cache /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/semver/package.json
+verbose linkStuff [ true,
+verbose linkStuff   '/usr/lib/node_modules',
+verbose linkStuff   false,
+verbose linkStuff   '/usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules' ]
+info linkStuff semver@1.0.14
+verbose linkBins semver@1.0.14
+verbose bins linking [ { semver: './bin/semver' },
+verbose bins linking   '/usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/.bin',
+verbose bins linking   false ]
+verbose linkMans semver@1.0.14
+verbose rebuildBundles semver@1.0.14
+verbose raw, before any munging ansi
+verbose url resolving [ 'https://registry.npmjs.org/', './ansi' ]
+verbose url resolved https://registry.npmjs.org/ansi
+verbose etag "AIVPJFPIY2M4N4WLD3LIB70RN"
+http GET https://registry.npmjs.org/ansi
+info postinstall rimraf@2.0.2
+verbose caching /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/nopt/package.json
+verbose loadDefaults nopt@2.0.0
+info preinstall nopt@2.0.0
+verbose from cache /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/nopt/package.json
+info install semver@1.0.14
+verbose readDependencies: using package.json deps
+verbose from cache /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/nopt/package.json
+verbose readDependencies: using package.json deps
+info postinstall semver@1.0.14
+verbose cache add [ 'abbrev@1', null ]
+silly cache add: name, spec, args [ undefined, 'abbrev@1', [ 'abbrev@1', null ] ]
+verbose parsed url { pathname: 'abbrev@1', path: 'abbrev@1', href: 'abbrev@1' }
+silly cache add: name, spec, args [ 'abbrev', '1', [ 'abbrev', '1' ] ]
+verbose parsed url { pathname: '1', path: '1', href: '1' }
+verbose addNamed [ 'abbrev', '1' ]
+verbose addNamed [ null, '>=1.0.0- <2.0.0-' ]
+silly name, range, hasData [ 'abbrev', '>=1.0.0- <2.0.0-', false ]
+verbose raw, before any munging abbrev
+verbose url resolving [ 'https://registry.npmjs.org/', './abbrev' ]
+verbose url resolved https://registry.npmjs.org/abbrev
+verbose etag "BY0TUCIHAC0YA0O7RZBU4FH9D"
+http GET https://registry.npmjs.org/abbrev
+verbose caching /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/minimatch/package.json
+verbose loadDefaults minimatch@0.2.6
+info preinstall minimatch@0.2.6
+verbose from cache /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/minimatch/package.json
+verbose readDependencies: using package.json deps
+verbose from cache /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/minimatch/package.json
+verbose readDependencies: using package.json deps
+verbose caching /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/glob/package.json
+verbose loadDefaults glob@3.1.12
+verbose cache add [ 'lru-cache@~2.0.0', null ]
+silly cache add: name, spec, args [ undefined, 'lru-cache@~2.0.0', [ 'lru-cache@~2.0.0', null ] ]
+verbose parsed url { pathname: 'lru-cache@~2.0.0',
+verbose parsed url   path: 'lru-cache@~2.0.0',
+verbose parsed url   href: 'lru-cache@~2.0.0' }
+silly cache add: name, spec, args [ 'lru-cache', '~2.0.0', [ 'lru-cache', '~2.0.0' ] ]
+verbose parsed url { pathname: '~2.0.0', path: '~2.0.0', href: '~2.0.0' }
+verbose addNamed [ 'lru-cache', '~2.0.0' ]
+verbose addNamed [ null, '>=2.0.0- <2.1.0-' ]
+silly name, range, hasData [ 'lru-cache', '>=2.0.0- <2.1.0-', false ]
+info preinstall glob@3.1.12
+verbose from cache /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/glob/package.json
+verbose readDependencies: using package.json deps
+verbose from cache /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/glob/package.json
+verbose raw, before any munging lru-cache
+verbose url resolving [ 'https://registry.npmjs.org/', './lru-cache' ]
+verbose url resolved https://registry.npmjs.org/lru-cache
+verbose etag "6CUJL6WYMIESIOXLN8A9LA89K"
+http GET https://registry.npmjs.org/lru-cache
+verbose readDependencies: using package.json deps
+verbose cache add [ 'inherits@1', null ]
+silly cache add: name, spec, args [ undefined, 'inherits@1', [ 'inherits@1', null ] ]
+verbose parsed url { pathname: 'inherits@1',
+verbose parsed url   path: 'inherits@1',
+verbose parsed url   href: 'inherits@1' }
+silly cache add: name, spec, args [ 'inherits', '1', [ 'inherits', '1' ] ]
+verbose parsed url { pathname: '1', path: '1', href: '1' }
+verbose addNamed [ 'inherits', '1' ]
+verbose addNamed [ null, '>=1.0.0- <2.0.0-' ]
+silly name, range, hasData [ 'inherits', '>=1.0.0- <2.0.0-', false ]
+verbose raw, before any munging inherits
+verbose url resolving [ 'https://registry.npmjs.org/', './inherits' ]
+verbose url resolved https://registry.npmjs.org/inherits
+verbose etag "8M02KNZWHA4QC6OKBFL5WNAEP"
+http GET https://registry.npmjs.org/inherits
+verbose caching /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/mkdirp/package.json
+verbose loadDefaults mkdirp@0.3.3
+info preinstall mkdirp@0.3.3
+verbose from cache /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/mkdirp/package.json
+verbose readDependencies: using package.json deps
+verbose from cache /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/mkdirp/package.json
+verbose readDependencies: using package.json deps
+silly resolved []
+verbose about to build /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/mkdirp
+info build /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/mkdirp
+verbose from cache /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/mkdirp/package.json
+verbose linkStuff [ true,
+verbose linkStuff   '/usr/lib/node_modules',
+verbose linkStuff   false,
+verbose linkStuff   '/usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules' ]
+info linkStuff mkdirp@0.3.3
+verbose linkBins mkdirp@0.3.3
+verbose linkMans mkdirp@0.3.3
+verbose rebuildBundles mkdirp@0.3.3
+info install mkdirp@0.3.3
+info postinstall mkdirp@0.3.3
+verbose caching /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/fstream/package.json
+verbose loadDefaults fstream@0.1.18
+info preinstall fstream@0.1.18
+verbose from cache /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/fstream/package.json
+verbose readDependencies: using package.json deps
+verbose from cache /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/fstream/package.json
+verbose readDependencies: using package.json deps
+verbose cache add [ 'inherits@~1.0.0', null ]
+silly cache add: name, spec, args [ undefined, 'inherits@~1.0.0', [ 'inherits@~1.0.0', null ] ]
+verbose parsed url { pathname: 'inherits@~1.0.0',
+verbose parsed url   path: 'inherits@~1.0.0',
+verbose parsed url   href: 'inherits@~1.0.0' }
+silly cache add: name, spec, args [ 'inherits', '~1.0.0', [ 'inherits', '~1.0.0' ] ]
+verbose parsed url { pathname: '~1.0.0', path: '~1.0.0', href: '~1.0.0' }
+verbose addNamed [ 'inherits', '~1.0.0' ]
+verbose addNamed [ null, '>=1.0.0- <1.1.0-' ]
+silly name, range, hasData [ 'inherits', '>=1.0.0- <1.1.0-', false ]
+verbose raw, before any munging inherits
+verbose url resolving [ 'https://registry.npmjs.org/', './inherits' ]
+verbose url resolved https://registry.npmjs.org/inherits
+verbose etag "8M02KNZWHA4QC6OKBFL5WNAEP"
+http GET https://registry.npmjs.org/inherits
+verbose caching /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/tar/package.json
+verbose loadDefaults tar@0.1.13
+info preinstall tar@0.1.13
+verbose from cache /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/tar/package.json
+verbose readDependencies: using package.json deps
+verbose from cache /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/tar/package.json
+verbose readDependencies: using package.json deps
+verbose cache add [ 'inherits@1.x', null ]
+silly cache add: name, spec, args [ undefined, 'inherits@1.x', [ 'inherits@1.x', null ] ]
+verbose parsed url { pathname: 'inherits@1.x',
+verbose parsed url   path: 'inherits@1.x',
+verbose parsed url   href: 'inherits@1.x' }
+silly cache add: name, spec, args [ 'inherits', '1.x', [ 'inherits', '1.x' ] ]
+verbose parsed url { pathname: '1.x', path: '1.x', href: '1.x' }
+verbose addNamed [ 'inherits', '1.x' ]
+verbose addNamed [ null, '>=1.0.0- <2.0.0-' ]
+silly name, range, hasData [ 'inherits', '>=1.0.0- <2.0.0-', false ]
+verbose cache add [ 'block-stream@*', null ]
+silly cache add: name, spec, args [ undefined, 'block-stream@*', [ 'block-stream@*', null ] ]
+verbose parsed url { pathname: 'block-stream@*',
+verbose parsed url   path: 'block-stream@*',
+verbose parsed url   href: 'block-stream@*' }
+silly cache add: name, spec, args [ 'block-stream', '*', [ 'block-stream', '*' ] ]
+verbose parsed url { pathname: '*', path: '*', href: '*' }
+verbose addNamed [ 'block-stream', '*' ]
+verbose addNamed [ null, '' ]
+silly name, range, hasData [ 'block-stream', '', false ]
+verbose raw, before any munging inherits
+verbose url resolving [ 'https://registry.npmjs.org/', './inherits' ]
+verbose url resolved https://registry.npmjs.org/inherits
+verbose etag "8M02KNZWHA4QC6OKBFL5WNAEP"
+http GET https://registry.npmjs.org/inherits
+verbose raw, before any munging block-stream
+verbose url resolving [ 'https://registry.npmjs.org/', './block-stream' ]
+verbose url resolved https://registry.npmjs.org/block-stream
+verbose etag "3AISMTNAM6GRD9QHU2CBUKDCB"
+http GET https://registry.npmjs.org/block-stream
+verbose caching /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/request/package.json
+verbose loadDefaults request@2.9.203
+info preinstall request@2.9.203
+verbose from cache /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/request/package.json
+verbose readDependencies: using package.json deps
+verbose from cache /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/request/package.json
+verbose readDependencies: using package.json deps
+silly resolved []
+verbose about to build /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/request
+info build /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/request
+verbose from cache /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/request/package.json
+verbose linkStuff [ true,
+verbose linkStuff   '/usr/lib/node_modules',
+verbose linkStuff   false,
+verbose linkStuff   '/usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules' ]
+info linkStuff request@2.9.203
+verbose linkBins request@2.9.203
+verbose linkMans request@2.9.203
+verbose rebuildBundles request@2.9.203
+info install request@2.9.203
+info postinstall request@2.9.203
+http 304 https://registry.npmjs.org/ansi
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"AIVPJFPIY2M4N4WLD3LIB70RN"',
+silly get cb     date: 'Fri, 17 Aug 2012 05:32:07 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag ansi from cache
+silly name, range, hasData 2 [ 'ansi', '>=0.1.2- <0.2.0-', true ]
+silly versions [ 'ansi',
+silly versions   [ '0.0.1', '0.0.2', '0.0.3', '0.0.4', '0.1.0', '0.1.1', '0.1.2' ] ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl1.0.0i-fips-v83.6.6.25-linux-ia32-3.4.7-1.fc16.i686',
+verbose bin dist   { shasum: '2627e29498f06e2a1c2ece9c21e28fd494430827',
+verbose bin dist     tarball: 'http://registry.npmjs.org/ansi/-/ansi-0.1.2.tgz' } ]
+verbose caching /root/.npm/ansi/0.1.2/package/package.json
+verbose loadDefaults ansi@0.1.2
+silly resolved [ { name: 'ansi',
+silly resolved     description: 'Advanced ANSI formatting tool for Node.js',
+silly resolved     keywords: 
+silly resolved      [ 'ansi',
+silly resolved        'formatting',
+silly resolved        'cursor',
+silly resolved        'color',
+silly resolved        'terminal',
+silly resolved        'rgb',
+silly resolved        '256',
+silly resolved        'stream' ],
+silly resolved     version: '0.1.2',
+silly resolved     author: 
+silly resolved      { name: 'Nathan Rajlich',
+silly resolved        email: 'nathan@tootallnate.net',
+silly resolved        url: 'http://tootallnate.net' },
+silly resolved     repository: { type: 'git', url: 'git://github.com/TooTallNate/ansi.js.git' },
+silly resolved     main: './lib/ansi.js',
+silly resolved     bin: 
+silly resolved      { beep: './examples/beep/index.js',
+silly resolved        clear: './examples/clear/index.js',
+silly resolved        imgcat: './examples/imgcat/index.js',
+silly resolved        starwars: './examples/starwars.js' },
+silly resolved     scripts: { test: 'mocha --reporter spec' },
+silly resolved     devDependencies: { mocha: '*', canvas: '*' },
+silly resolved     engines: { node: '*' },
+silly resolved     _id: 'ansi@0.1.2',
+silly resolved     dependencies: {},
+silly resolved     optionalDependencies: {},
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.19',
+silly resolved     _nodeVersion: 'v0.6.18',
+silly resolved     _defaultsLoaded: true,
+silly resolved     _from: 'ansi@~0.1.2' } ]
+info into /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/npmlog ansi@0.1.2
+info installOne ansi@0.1.2
+verbose from cache /root/.npm/ansi/0.1.2/package/package.json
+info unbuild /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/npmlog/node_modules/ansi
+verbose unpack /root/.npm/ansi/0.1.2/package.tgz
+silly gunzTarPerm modes [ '755', '644' ]
+silly extracting entry package.json
+silly extracting entry .npmignore
+silly extracting entry README.md
+silly extracting entry examples/cursorPosition.js
+silly extracting entry examples/starwars.js
+silly extracting entry examples/clear/index.js
+silly extracting entry examples/imgcat/index.js
+silly extracting entry examples/imgcat/yoshi.png
+silly extracting entry examples/progress/index.js
+silly extracting entry examples/beep/index.js
+silly extracting entry lib/newlines.js
+silly extracting entry lib/ansi.js
+verbose caching /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/npmlog/node_modules/ansi/package.json
+verbose loadDefaults ansi@0.1.2
+info preinstall ansi@0.1.2
+verbose from cache /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/npmlog/node_modules/ansi/package.json
+verbose readDependencies: using package.json deps
+verbose from cache /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/npmlog/node_modules/ansi/package.json
+verbose readDependencies: using package.json deps
+silly resolved []
+verbose about to build /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/npmlog/node_modules/ansi
+info build /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/npmlog/node_modules/ansi
+verbose from cache /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/npmlog/node_modules/ansi/package.json
+verbose linkStuff [ true,
+verbose linkStuff   '/usr/lib/node_modules',
+verbose linkStuff   false,
+verbose linkStuff   '/usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/npmlog/node_modules' ]
+info linkStuff ansi@0.1.2
+verbose linkBins ansi@0.1.2
+verbose bins linking [ { beep: './examples/beep/index.js',
+verbose bins linking     clear: './examples/clear/index.js',
+verbose bins linking     imgcat: './examples/imgcat/index.js',
+verbose bins linking     starwars: './examples/starwars.js' },
+verbose bins linking   '/usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/npmlog/node_modules/.bin',
+verbose bins linking   false ]
+verbose linkMans ansi@0.1.2
+verbose rebuildBundles ansi@0.1.2
+info install ansi@0.1.2
+info postinstall ansi@0.1.2
+verbose about to build /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/npmlog
+info build /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/npmlog
+verbose from cache /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/npmlog/package.json
+verbose linkStuff [ true,
+verbose linkStuff   '/usr/lib/node_modules',
+verbose linkStuff   false,
+verbose linkStuff   '/usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules' ]
+info linkStuff npmlog@0.0.2
+verbose linkBins npmlog@0.0.2
+verbose linkMans npmlog@0.0.2
+verbose rebuildBundles npmlog@0.0.2
+verbose rebuildBundles [ '.bin', 'ansi' ]
+info install npmlog@0.0.2
+info postinstall npmlog@0.0.2
+http 304 https://registry.npmjs.org/abbrev
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"BY0TUCIHAC0YA0O7RZBU4FH9D"',
+silly get cb     date: 'Fri, 17 Aug 2012 05:32:08 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag abbrev from cache
+http 304 https://registry.npmjs.org/inherits
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"8M02KNZWHA4QC6OKBFL5WNAEP"',
+silly get cb     date: 'Fri, 17 Aug 2012 05:32:08 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag inherits from cache
+http 304 https://registry.npmjs.org/lru-cache
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"6CUJL6WYMIESIOXLN8A9LA89K"',
+silly get cb     date: 'Fri, 17 Aug 2012 05:32:08 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag lru-cache from cache
+silly name, range, hasData 2 [ 'abbrev', '>=1.0.0- <2.0.0-', true ]
+silly versions [ 'abbrev', [ '1.0.1', '1.0.2', '1.0.3' ] ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl1.0.0i-fips-v83.6.6.25-linux-ia32-3.4.7-1.fc16.i686',
+verbose bin dist   { shasum: 'aa049c967f999222aa42e14434f0c562ef468241',
+verbose bin dist     tarball: 'http://registry.npmjs.org/abbrev/-/abbrev-1.0.3.tgz' } ]
+silly name, range, hasData 2 [ 'inherits', '>=1.0.0- <2.0.0-', true ]
+silly versions [ 'inherits', [ '1.0.0' ] ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl1.0.0i-fips-v83.6.6.25-linux-ia32-3.4.7-1.fc16.i686',
+verbose bin dist   { shasum: '38e1975285bf1f7ba9c84da102bb12771322ac48',
+verbose bin dist     tarball: 'http://registry.npmjs.org/inherits/-/inherits-1.0.0.tgz' } ]
+http 304 https://registry.npmjs.org/inherits
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"8M02KNZWHA4QC6OKBFL5WNAEP"',
+silly get cb     date: 'Fri, 17 Aug 2012 05:32:08 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag inherits from cache
+silly name, range, hasData 2 [ 'lru-cache', '>=2.0.0- <2.1.0-', true ]
+silly versions [ 'lru-cache',
+silly versions   [ '1.0.1',
+silly versions     '1.0.2',
+silly versions     '1.0.3',
+silly versions     '1.0.4',
+silly versions     '1.0.5',
+silly versions     '1.0.6',
+silly versions     '1.1.0',
+silly versions     '1.1.1',
+silly versions     '2.0.0',
+silly versions     '2.0.1' ] ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl1.0.0i-fips-v83.6.6.25-linux-ia32-3.4.7-1.fc16.i686',
+verbose bin dist   { shasum: '6feae28419f7fc358a063a5b188d52d15538006a',
+verbose bin dist     tarball: 'http://registry.npmjs.org/lru-cache/-/lru-cache-2.0.1.tgz' } ]
+silly name, range, hasData 2 [ 'inherits', '>=1.0.0- <2.0.0-', true ]
+silly versions [ 'inherits', [ '1.0.0' ] ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl1.0.0i-fips-v83.6.6.25-linux-ia32-3.4.7-1.fc16.i686',
+verbose bin dist   { shasum: '38e1975285bf1f7ba9c84da102bb12771322ac48',
+verbose bin dist     tarball: 'http://registry.npmjs.org/inherits/-/inherits-1.0.0.tgz' } ]
+verbose caching /root/.npm/lru-cache/2.0.1/package/package.json
+verbose loadDefaults lru-cache@2.0.1
+silly resolved [ { name: 'lru-cache',
+silly resolved     description: 'A cache object that deletes the least-recently-used items.',
+silly resolved     version: '2.0.1',
+silly resolved     author: { name: 'Isaac Z. Schlueter', email: 'i@izs.me' },
+silly resolved     scripts: { test: 'tap test' },
+silly resolved     main: 'lib/lru-cache.js',
+silly resolved     repository: 
+silly resolved      { type: 'git',
+silly resolved        url: 'git://github.com/isaacs/node-lru-cache.git' },
+silly resolved     devDependencies: { tap: '' },
+silly resolved     license: 
+silly resolved      { type: 'MIT',
+silly resolved        url: 'http://github.com/isaacs/node-lru-cache/raw/master/LICENSE' },
+silly resolved     _id: 'lru-cache@2.0.1',
+silly resolved     contributors: 
+silly resolved      [ { name: 'Isaac Z. Schlueter', email: 'i@izs.me' },
+silly resolved        { name: 'Carlos Brito Lage', email: 'carlos@carloslage.net' },
+silly resolved        { name: 'Marko Mikulicic',
+silly resolved          email: 'marko.mikulicic@isti.cnr.it' },
+silly resolved        { name: 'Trent Mick', email: 'trentm@gmail.com' },
+silly resolved        { name: 'Kevin O\'Hara', email: 'kevinohara80@gmail.com' },
+silly resolved        { name: 'Marco Rogers', email: 'marco.rogers@gmail.com' } ],
+silly resolved     dependencies: {},
+silly resolved     optionalDependencies: {},
+silly resolved     engines: { node: '*' },
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.19',
+silly resolved     _nodeVersion: 'v0.6.18',
+silly resolved     _defaultsLoaded: true,
+silly resolved     _from: 'lru-cache@~2.0.0' } ]
+info into /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/minimatch lru-cache@2.0.1
+info installOne lru-cache@2.0.1
+verbose from cache /root/.npm/lru-cache/2.0.1/package/package.json
+info unbuild /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/minimatch/node_modules/lru-cache
+verbose unpack /root/.npm/lru-cache/2.0.1/package.tgz
+silly gunzTarPerm modes [ '755', '644' ]
+silly extracting entry package.json
+silly extracting entry .npmignore
+silly extracting entry README.md
+silly extracting entry LICENSE
+silly extracting entry AUTHORS
+silly extracting entry lib/lru-cache.js
+silly extracting entry test/basic.js
+verbose caching /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/minimatch/node_modules/lru-cache/package.json
+verbose loadDefaults lru-cache@2.0.1
+info preinstall lru-cache@2.0.1
+verbose from cache /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/minimatch/node_modules/lru-cache/package.json
+verbose readDependencies: using package.json deps
+verbose from cache /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/minimatch/node_modules/lru-cache/package.json
+verbose readDependencies: using package.json deps
+silly resolved []
+verbose about to build /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/minimatch/node_modules/lru-cache
+info build /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/minimatch/node_modules/lru-cache
+verbose from cache /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/minimatch/node_modules/lru-cache/package.json
+verbose linkStuff [ true,
+verbose linkStuff   '/usr/lib/node_modules',
+verbose linkStuff   false,
+verbose linkStuff   '/usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/minimatch/node_modules' ]
+info linkStuff lru-cache@2.0.1
+verbose linkBins lru-cache@2.0.1
+verbose linkMans lru-cache@2.0.1
+verbose rebuildBundles lru-cache@2.0.1
+info install lru-cache@2.0.1
+info postinstall lru-cache@2.0.1
+verbose about to build /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/minimatch
+info build /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/minimatch
+verbose from cache /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/minimatch/package.json
+verbose linkStuff [ true,
+verbose linkStuff   '/usr/lib/node_modules',
+verbose linkStuff   false,
+verbose linkStuff   '/usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules' ]
+info linkStuff minimatch@0.2.6
+verbose linkBins minimatch@0.2.6
+verbose linkMans minimatch@0.2.6
+verbose rebuildBundles minimatch@0.2.6
+verbose rebuildBundles [ 'lru-cache' ]
+info install minimatch@0.2.6
+info postinstall minimatch@0.2.6
+verbose caching /root/.npm/abbrev/1.0.3/package/package.json
+verbose loadDefaults abbrev@1.0.3
+silly resolved [ { name: 'abbrev',
+silly resolved     version: '1.0.3',
+silly resolved     description: 'Like ruby\'s abbrev module, but in js',
+silly resolved     author: { name: 'Isaac Z. Schlueter', email: 'i@izs.me' },
+silly resolved     main: './lib/abbrev.js',
+silly resolved     scripts: { test: 'node lib/abbrev.js' },
+silly resolved     repository: { type: 'git', url: 'git://github.com/isaacs/abbrev-js.git' },
+silly resolved     _id: 'abbrev@1.0.3',
+silly resolved     dependencies: {},
+silly resolved     devDependencies: {},
+silly resolved     optionalDependencies: {},
+silly resolved     engines: { node: '*' },
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.19',
+silly resolved     _nodeVersion: 'v0.6.18',
+silly resolved     _defaultsLoaded: true,
+silly resolved     _from: 'abbrev@1' } ]
+info into /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/nopt abbrev@1.0.3
+info installOne abbrev@1.0.3
+verbose from cache /root/.npm/abbrev/1.0.3/package/package.json
+info unbuild /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/nopt/node_modules/abbrev
+verbose unpack /root/.npm/abbrev/1.0.3/package.tgz
+silly gunzTarPerm modes [ '755', '644' ]
+silly extracting entry package.json
+silly extracting entry README.md
+silly extracting entry lib/abbrev.js
+verbose caching /root/.npm/inherits/1.0.0/package/package.json
+verbose loadDefaults inherits@1.0.0
+silly resolved [ { name: 'inherits',
+silly resolved     description: 'A tiny simple way to do classic inheritance in js',
+silly resolved     version: '1.0.0',
+silly resolved     keywords: [ 'inheritance', 'class', 'klass', 'oop', 'object-oriented' ],
+silly resolved     main: './inherits.js',
+silly resolved     repository: { type: 'git', url: 'git://github.com/isaacs/inherits.git' },
+silly resolved     author: 
+silly resolved      { name: 'Isaac Z. Schlueter',
+silly resolved        email: 'i@izs.me',
+silly resolved        url: 'http://blog.izs.me/' },
+silly resolved     _id: 'inherits@1.0.0',
+silly resolved     dependencies: {},
+silly resolved     devDependencies: {},
+silly resolved     optionalDependencies: {},
+silly resolved     engines: { node: '*' },
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.19',
+silly resolved     _nodeVersion: 'v0.6.18',
+silly resolved     _defaultsLoaded: true,
+silly resolved     _from: 'inherits@1',
+silly resolved     scripts: {} } ]
+info into /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/glob inherits@1.0.0
+info installOne inherits@1.0.0
+verbose caching /root/.npm/inherits/1.0.0/package/package.json
+verbose loadDefaults inherits@1.0.0
+verbose from cache /root/.npm/inherits/1.0.0/package/package.json
+info unbuild /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/glob/node_modules/inherits
+verbose unpack /root/.npm/inherits/1.0.0/package.tgz
+silly gunzTarPerm modes [ '755', '644' ]
+silly extracting entry package.json
+silly extracting entry README.md
+silly extracting entry inherits.js
+verbose caching /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/nopt/node_modules/abbrev/package.json
+verbose loadDefaults abbrev@1.0.3
+info preinstall abbrev@1.0.3
+verbose from cache /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/nopt/node_modules/abbrev/package.json
+verbose readDependencies: using package.json deps
+verbose from cache /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/nopt/node_modules/abbrev/package.json
+verbose readDependencies: using package.json deps
+silly resolved []
+verbose about to build /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/nopt/node_modules/abbrev
+info build /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/nopt/node_modules/abbrev
+verbose from cache /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/nopt/node_modules/abbrev/package.json
+verbose linkStuff [ true,
+verbose linkStuff   '/usr/lib/node_modules',
+verbose linkStuff   false,
+verbose linkStuff   '/usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/nopt/node_modules' ]
+info linkStuff abbrev@1.0.3
+verbose linkBins abbrev@1.0.3
+verbose linkMans abbrev@1.0.3
+verbose rebuildBundles abbrev@1.0.3
+info install abbrev@1.0.3
+info postinstall abbrev@1.0.3
+verbose about to build /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/nopt
+info build /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/nopt
+verbose from cache /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/nopt/package.json
+verbose linkStuff [ true,
+verbose linkStuff   '/usr/lib/node_modules',
+verbose linkStuff   false,
+verbose linkStuff   '/usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules' ]
+info linkStuff nopt@2.0.0
+verbose linkBins nopt@2.0.0
+verbose bins linking [ { nopt: './bin/nopt.js' },
+verbose bins linking   '/usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/.bin',
+verbose bins linking   false ]
+verbose linkMans nopt@2.0.0
+verbose rebuildBundles nopt@2.0.0
+verbose rebuildBundles [ 'abbrev' ]
+verbose caching /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/glob/node_modules/inherits/package.json
+verbose loadDefaults inherits@1.0.0
+info install nopt@2.0.0
+info preinstall inherits@1.0.0
+info postinstall nopt@2.0.0
+verbose from cache /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/glob/node_modules/inherits/package.json
+verbose readDependencies: using package.json deps
+verbose from cache /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/glob/node_modules/inherits/package.json
+verbose readDependencies: using package.json deps
+silly resolved []
+verbose about to build /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/glob/node_modules/inherits
+info build /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/glob/node_modules/inherits
+verbose from cache /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/glob/node_modules/inherits/package.json
+verbose linkStuff [ true,
+verbose linkStuff   '/usr/lib/node_modules',
+verbose linkStuff   false,
+verbose linkStuff   '/usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/glob/node_modules' ]
+info linkStuff inherits@1.0.0
+verbose linkBins inherits@1.0.0
+verbose linkMans inherits@1.0.0
+verbose rebuildBundles inherits@1.0.0
+info install inherits@1.0.0
+info postinstall inherits@1.0.0
+verbose about to build /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/glob
+info build /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/glob
+verbose from cache /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/glob/package.json
+verbose linkStuff [ true,
+verbose linkStuff   '/usr/lib/node_modules',
+verbose linkStuff   false,
+verbose linkStuff   '/usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules' ]
+info linkStuff glob@3.1.12
+verbose linkBins glob@3.1.12
+verbose linkMans glob@3.1.12
+verbose rebuildBundles glob@3.1.12
+verbose rebuildBundles [ 'inherits' ]
+info install glob@3.1.12
+info postinstall glob@3.1.12
+http 304 https://registry.npmjs.org/inherits
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"8M02KNZWHA4QC6OKBFL5WNAEP"',
+silly get cb     date: 'Fri, 17 Aug 2012 05:32:08 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag inherits from cache
+silly name, range, hasData 2 [ 'inherits', '>=1.0.0- <1.1.0-', true ]
+silly versions [ 'inherits', [ '1.0.0' ] ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl1.0.0i-fips-v83.6.6.25-linux-ia32-3.4.7-1.fc16.i686',
+verbose bin dist   { shasum: '38e1975285bf1f7ba9c84da102bb12771322ac48',
+verbose bin dist     tarball: 'http://registry.npmjs.org/inherits/-/inherits-1.0.0.tgz' } ]
+verbose from cache /root/.npm/inherits/1.0.0/package/package.json
+silly resolved [ { name: 'inherits',
+silly resolved     description: 'A tiny simple way to do classic inheritance in js',
+silly resolved     version: '1.0.0',
+silly resolved     keywords: [ 'inheritance', 'class', 'klass', 'oop', 'object-oriented' ],
+silly resolved     main: './inherits.js',
+silly resolved     repository: { type: 'git', url: 'git://github.com/isaacs/inherits.git' },
+silly resolved     author: 
+silly resolved      { name: 'Isaac Z. Schlueter',
+silly resolved        email: 'i@izs.me',
+silly resolved        url: 'http://blog.izs.me/' },
+silly resolved     _id: 'inherits@1.0.0',
+silly resolved     dependencies: {},
+silly resolved     devDependencies: {},
+silly resolved     optionalDependencies: {},
+silly resolved     engines: { node: '*' },
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.19',
+silly resolved     _nodeVersion: 'v0.6.18',
+silly resolved     _defaultsLoaded: true,
+silly resolved     _from: 'inherits@~1.0.0',
+silly resolved     scripts: {} } ]
+info into /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/fstream inherits@1.0.0
+info installOne inherits@1.0.0
+verbose from cache /root/.npm/inherits/1.0.0/package/package.json
+info unbuild /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/fstream/node_modules/inherits
+verbose unpack /root/.npm/inherits/1.0.0/package.tgz
+silly gunzTarPerm modes [ '755', '644' ]
+silly extracting entry package.json
+silly extracting entry README.md
+silly extracting entry inherits.js
+verbose caching /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/fstream/node_modules/inherits/package.json
+verbose loadDefaults inherits@1.0.0
+info preinstall inherits@1.0.0
+verbose from cache /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/fstream/node_modules/inherits/package.json
+verbose readDependencies: using package.json deps
+verbose from cache /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/fstream/node_modules/inherits/package.json
+verbose readDependencies: using package.json deps
+silly resolved []
+verbose about to build /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/fstream/node_modules/inherits
+info build /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/fstream/node_modules/inherits
+verbose from cache /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/fstream/node_modules/inherits/package.json
+verbose linkStuff [ true,
+verbose linkStuff   '/usr/lib/node_modules',
+verbose linkStuff   false,
+verbose linkStuff   '/usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/fstream/node_modules' ]
+info linkStuff inherits@1.0.0
+verbose linkBins inherits@1.0.0
+verbose linkMans inherits@1.0.0
+verbose rebuildBundles inherits@1.0.0
+info install inherits@1.0.0
+info postinstall inherits@1.0.0
+verbose about to build /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/fstream
+info build /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/fstream
+verbose from cache /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/fstream/package.json
+verbose linkStuff [ true,
+verbose linkStuff   '/usr/lib/node_modules',
+verbose linkStuff   false,
+verbose linkStuff   '/usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules' ]
+info linkStuff fstream@0.1.18
+verbose linkBins fstream@0.1.18
+verbose linkMans fstream@0.1.18
+verbose rebuildBundles fstream@0.1.18
+verbose rebuildBundles [ 'inherits' ]
+info install fstream@0.1.18
+info postinstall fstream@0.1.18
+http 304 https://registry.npmjs.org/block-stream
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"3AISMTNAM6GRD9QHU2CBUKDCB"',
+silly get cb     date: 'Fri, 17 Aug 2012 05:32:08 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag block-stream from cache
+silly name, range, hasData 2 [ 'block-stream', '', true ]
+silly versions [ 'block-stream', [ '0.0.3', '0.0.4', '0.0.5', '0.0.6' ] ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl1.0.0i-fips-v83.6.6.25-linux-ia32-3.4.7-1.fc16.i686',
+verbose bin dist   { shasum: 'f7027aea2ecc357153fa3bad6caeaf25f391aa4f',
+verbose bin dist     tarball: 'http://registry.npmjs.org/block-stream/-/block-stream-0.0.6.tgz' } ]
+verbose caching /root/.npm/block-stream/0.0.6/package/package.json
+verbose loadDefaults block-stream@0.0.6
+silly resolved [ { name: 'inherits',
+silly resolved     description: 'A tiny simple way to do classic inheritance in js',
+silly resolved     version: '1.0.0',
+silly resolved     keywords: [ 'inheritance', 'class', 'klass', 'oop', 'object-oriented' ],
+silly resolved     main: './inherits.js',
+silly resolved     repository: { type: 'git', url: 'git://github.com/isaacs/inherits.git' },
+silly resolved     author: 
+silly resolved      { name: 'Isaac Z. Schlueter',
+silly resolved        email: 'i@izs.me',
+silly resolved        url: 'http://blog.izs.me/' },
+silly resolved     _id: 'inherits@1.0.0',
+silly resolved     dependencies: {},
+silly resolved     devDependencies: {},
+silly resolved     optionalDependencies: {},
+silly resolved     engines: { node: '*' },
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.19',
+silly resolved     _nodeVersion: 'v0.6.18',
+silly resolved     _defaultsLoaded: true,
+silly resolved     _from: 'inherits@~1.0.0',
+silly resolved     scripts: {} },
+silly resolved   { author: 
+silly resolved      { name: 'Isaac Z. Schlueter',
+silly resolved        email: 'i@izs.me',
+silly resolved        url: 'http://blog.izs.me/' },
+silly resolved     name: 'block-stream',
+silly resolved     description: 'a stream of blocks',
+silly resolved     version: '0.0.6',
+silly resolved     repository: { type: 'git', url: 'git://github.com/isaacs/block-stream.git' },
+silly resolved     engines: { node: '0.4 || >=0.5.8' },
+silly resolved     main: 'block-stream.js',
+silly resolved     dependencies: { inherits: '~1.0.0' },
+silly resolved     devDependencies: { tap: '0.x' },
+silly resolved     scripts: { test: 'tap test/' },
+silly resolved     license: 'BSD',
+silly resolved     _id: 'block-stream@0.0.6',
+silly resolved     optionalDependencies: {},
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.19',
+silly resolved     _nodeVersion: 'v0.6.18',
+silly resolved     _defaultsLoaded: true,
+silly resolved     _from: 'block-stream@*' } ]
+info into /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/tar inherits@1.0.0
+info into /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/tar block-stream@0.0.6
+info installOne inherits@1.0.0
+info installOne block-stream@0.0.6
+verbose from cache /root/.npm/inherits/1.0.0/package/package.json
+info unbuild /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/tar/node_modules/inherits
+verbose from cache /root/.npm/block-stream/0.0.6/package/package.json
+info unbuild /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/tar/node_modules/block-stream
+verbose unpack /root/.npm/inherits/1.0.0/package.tgz
+verbose unpack /root/.npm/block-stream/0.0.6/package.tgz
+silly gunzTarPerm modes [ '755', '644' ]
+silly gunzTarPerm modes [ '755', '644' ]
+silly extracting entry package.json
+silly extracting entry README.md
+silly extracting entry inherits.js
+verbose caching /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/tar/node_modules/inherits/package.json
+verbose loadDefaults inherits@1.0.0
+info preinstall inherits@1.0.0
+verbose from cache /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/tar/node_modules/inherits/package.json
+verbose readDependencies: using package.json deps
+verbose from cache /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/tar/node_modules/inherits/package.json
+verbose readDependencies: using package.json deps
+silly resolved []
+verbose about to build /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/tar/node_modules/inherits
+info build /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/tar/node_modules/inherits
+verbose from cache /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/tar/node_modules/inherits/package.json
+verbose linkStuff [ true,
+verbose linkStuff   '/usr/lib/node_modules',
+verbose linkStuff   false,
+verbose linkStuff   '/usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/tar/node_modules' ]
+info linkStuff inherits@1.0.0
+verbose linkBins inherits@1.0.0
+verbose linkMans inherits@1.0.0
+verbose rebuildBundles inherits@1.0.0
+info install inherits@1.0.0
+info postinstall inherits@1.0.0
+silly extracting entry package.json
+silly extracting entry README.md
+silly extracting entry LICENCE
+silly extracting entry block-stream.js
+silly extracting entry bench/block-stream.js
+silly extracting entry bench/dropper.js
+silly extracting entry bench/block-stream-pause.js
+silly extracting entry bench/dropper-pause.js
+silly extracting entry test/nopad-thorough.js
+silly extracting entry test/pause-resume.js
+silly extracting entry test/thorough.js
+silly extracting entry test/nopad.js
+silly extracting entry test/two-stream.js
+silly extracting entry test/basic.js
+verbose caching /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/tar/node_modules/block-stream/package.json
+verbose loadDefaults block-stream@0.0.6
+info preinstall block-stream@0.0.6
+verbose from cache /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/tar/node_modules/block-stream/package.json
+verbose readDependencies: using package.json deps
+verbose from cache /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/tar/node_modules/block-stream/package.json
+verbose readDependencies: using package.json deps
+silly resolved []
+verbose about to build /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/tar/node_modules/block-stream
+info build /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/tar/node_modules/block-stream
+verbose from cache /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/tar/node_modules/block-stream/package.json
+verbose linkStuff [ true,
+verbose linkStuff   '/usr/lib/node_modules',
+verbose linkStuff   false,
+verbose linkStuff   '/usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/tar/node_modules' ]
+info linkStuff block-stream@0.0.6
+verbose linkBins block-stream@0.0.6
+verbose linkMans block-stream@0.0.6
+verbose rebuildBundles block-stream@0.0.6
+info install block-stream@0.0.6
+info postinstall block-stream@0.0.6
+verbose about to build /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/tar
+info build /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/tar
+verbose from cache /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules/tar/package.json
+verbose linkStuff [ true,
+verbose linkStuff   '/usr/lib/node_modules',
+verbose linkStuff   false,
+verbose linkStuff   '/usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/node_modules' ]
+info linkStuff tar@0.1.13
+verbose linkBins tar@0.1.13
+verbose linkMans tar@0.1.13
+verbose rebuildBundles tar@0.1.13
+verbose rebuildBundles [ 'block-stream', 'inherits' ]
+info install tar@0.1.13
+info postinstall tar@0.1.13
+verbose about to build /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp
+info build /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp
+verbose from cache /usr/lib/node_modules/firmata/node_modules/serialport/node_modules/node-gyp/package.json
+verbose linkStuff [ true,
+verbose linkStuff   '/usr/lib/node_modules',
+verbose linkStuff   false,
+verbose linkStuff   '/usr/lib/node_modules/firmata/node_modules/serialport/node_modules' ]
+info linkStuff node-gyp@0.6.2
+verbose linkBins node-gyp@0.6.2
+verbose bins linking [ { 'node-gyp': './bin/node-gyp.js' },
+verbose bins linking   '/usr/lib/node_modules/firmata/node_modules/serialport/node_modules/.bin',
+verbose bins linking   false ]
+verbose linkMans node-gyp@0.6.2
+verbose rebuildBundles node-gyp@0.6.2
+verbose rebuildBundles [ 'semver',
+verbose rebuildBundles   '.bin',
+verbose rebuildBundles   'rimraf',
+verbose rebuildBundles   'graceful-fs',
+verbose rebuildBundles   'nopt',
+verbose rebuildBundles   'which',
+verbose rebuildBundles   'fstream',
+verbose rebuildBundles   'request',
+verbose rebuildBundles   'mkdirp',
+verbose rebuildBundles   'glob',
+verbose rebuildBundles   'npmlog',
+verbose rebuildBundles   'osenv',
+verbose rebuildBundles   'minimatch',
+verbose rebuildBundles   'tar' ]
+info install node-gyp@0.6.2
+info postinstall node-gyp@0.6.2
+verbose about to build /usr/lib/node_modules/firmata/node_modules/serialport
+info build /usr/lib/node_modules/firmata/node_modules/serialport
+verbose from cache /usr/lib/node_modules/firmata/node_modules/serialport/package.json
+verbose linkStuff [ true,
+verbose linkStuff   '/usr/lib/node_modules',
+verbose linkStuff   false,
+verbose linkStuff   '/usr/lib/node_modules/firmata/node_modules' ]
+info linkStuff serialport@1.0.4
+verbose linkBins serialport@1.0.4
+verbose bins linking [ { serialportlist: './bin/serialportList.js',
+verbose bins linking     serialportterm: './bin/serialportTerminal.js' },
+verbose bins linking   '/usr/lib/node_modules/firmata/node_modules/.bin',
+verbose bins linking   false ]
+verbose linkMans serialport@1.0.4
+verbose rebuildBundles serialport@1.0.4
+verbose rebuildBundles [ 'async', '.bin', 'bindings', 'node-gyp', 'optimist', 'sf' ]
+info install serialport@1.0.4
+verbose unsafe-perm in lifecycle false
+verbose Setting uid from 0 nobody
+verbose stack at uid setting Error
+verbose stack at uid setting     at exec (/usr/lib/nodejs/npm/lib/utils/exec.js:36:17)
+verbose stack at uid setting     at Array.0 (/usr/lib/nodejs/npm/lib/utils/lifecycle.js:146:5)
+verbose stack at uid setting     at EventEmitter._tickCallback (node.js:190:38)
+verbose Setting uid from 0 99
+verbose stack at uid setting Error
+verbose stack at uid setting     at exec (/usr/lib/nodejs/npm/lib/utils/exec.js:36:17)
+verbose stack at uid setting     at /usr/lib/nodejs/npm/lib/utils/exec.js:43:7
+verbose stack at uid setting     at Array.0 (native)
+verbose stack at uid setting     at EventEmitter._tickCallback (node.js:190:38)
+silly exec sh "-c" "node-gyp rebuild"
+silly spawning [ 'sh',
+silly spawning   [ '-c', 'node-gyp rebuild' ],
+silly spawning   '/usr/lib/node_modules/firmata/node_modules/serialport' ]
+info serialport@1.0.4 Failed to exec install script
+info unbuild /usr/lib/node_modules/firmata/node_modules/serialport
+verbose from cache /usr/lib/node_modules/firmata/node_modules/serialport/package.json
+info preuninstall serialport@1.0.4
+info uninstall serialport@1.0.4
+verbose unbuild serialport@1.0.4 [ false,
+verbose unbuild serialport@1.0.4   '/usr/lib/node_modules',
+verbose unbuild serialport@1.0.4   '/usr/lib/node_modules/firmata/node_modules' ]
+verbose binRoot [ '/usr/lib/node_modules/firmata/node_modules/.bin',
+verbose binRoot   { serialportlist: './bin/serialportList.js',
+verbose binRoot     serialportterm: './bin/serialportTerminal.js' } ]
+info postuninstall serialport@1.0.4
+verbose about to build /usr/lib/node_modules/firmata
+info unbuild /usr/lib/node_modules/firmata
+verbose from cache /usr/lib/node_modules/firmata/package.json
+info preuninstall firmata@0.2.4
+info uninstall firmata@0.2.4
+verbose unbuild firmata@0.2.4 [ true, '/usr/lib/node_modules', '/usr/lib/node_modules' ]
+verbose binRoot [ '/usr/bin', { firmata: './repl.js' } ]
+info postuninstall firmata@0.2.4
+ERR! serialport@1.0.4 install: `node-gyp rebuild`
+ERR! `sh "-c" "node-gyp rebuild"` failed with 7
+ERR! 
+ERR! Failed at the serialport@1.0.4 install script.
+ERR! This is most likely a problem with the serialport package,
+ERR! not with npm itself.
+ERR! Tell the author that this fails on your system:
+ERR!     node-gyp rebuild
+ERR! You can get their info via:
+ERR!     npm owner ls serialport
+ERR! There is likely additional logging output above.
+ERR! 
+ERR! System Linux 3.4.7-1.fc16.i686
+ERR! command "nodejs" "/usr/bin/npm" "install" "-g" "firmata"
+ERR! cwd /media/Archivos/Arduino Labs/Examples
+ERR! node -v v0.6.18
+ERR! npm -v 1.1.19
+ERR! code ELIFECYCLE
+ERR! message serialport@1.0.4 install: `node-gyp rebuild`
+ERR! message `sh "-c" "node-gyp rebuild"` failed with 7
+ERR! errno {}
+verbose exit [ 1, true ]
